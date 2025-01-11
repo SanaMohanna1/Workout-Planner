@@ -1,0 +1,107 @@
+/* Home.css */
+
+/* General Content Padding */
+.ion-content {
+  padding: 0; /* Remove extra padding to fit the grid nicely */
+}
+
+/* Welcome Section */
+.welcome-section {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.welcome-section h1 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: var(--ion-color-primary);
+}
+
+.welcome-section p {
+  font-size: 1.2rem;
+  color: var(--ion-color-medium);
+  margin-top: 8px;
+}
+
+/* Toolbar styling */
+ion-toolbar {
+  --background: var(--ion-color-primary); /* Set the background color */
+  --color: var(--ion-color-light); /* Set the text/icon color */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+}
+
+/* FontAwesome Icon styling (as a logo) */
+ion-toolbar .fa-dumbbell {
+  font-size: 4rem; /* Make the icon larger */
+  margin-right: 12px; /* Add spacing between icon and title */
+  color: var(--ion-color-light); /* Match toolbar text color */
+}
+
+/* Title styling */
+ion-title {
+  font-size: 1.8rem; /* Make the title larger for a bold header */
+  font-weight: bold; /* Emphasize the title */
+  text-align: center; /* Center the title */
+}
+
+/* Adjusting layout for centered logo and title */
+ion-toolbar {
+  display: flex;
+  align-items: center;
+}
+
+.fa-dumbbell + ion-title {
+  flex: 1; /* Center the title with the icon */
+}
+/* Card Grid */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns */
+  gap: 10px; /* Space between cards */
+  padding: 16px;
+  justify-items: center; /* Center align the cards */
+}
+
+/* Card Styling */
+ion-card {
+  width: 100%; /* Full width of grid cell */
+  max-width: 500px; /* Limit card size */
+  border-radius: 12px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for cards */
+  overflow: hidden; /* Ensure content doesn't overflow the card */
+}
+
+/* Card Images */
+ion-card img {
+  width: 100%; /* Full width of card */
+  height: 300px; /* Fixed height for all images */
+  object-fit: cover; /* Ensures images fill the area without distortion */
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+/* Card Header and Content */
+ion-card-header,
+ion-card-content {
+  text-align: center; /* Center align card content */
+}
+
+ion-card-title {
+  font-size: 1.4rem;
+  color: var(--ion-color-primary);
+}
+
+ion-card-subtitle {
+  font-size: 1rem;
+  color: var(--ion-color-medium);
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .card-grid {
+    grid-template-columns: 1fr; /* Single column for smaller screens */
+  }
+}

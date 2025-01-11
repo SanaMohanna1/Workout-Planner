@@ -1,0 +1,97 @@
+[
+    {
+    "name": "Crunch With Leg Raise",
+    "primaryMuscles": [
+      "Abs"
+    ],
+    "secondaryMuscles": [
+      "Low back"
+    ],
+    "benefits":"The crunch with leg raise exercise targets the rectus abdominis and oblique muscles, so that the upper and lower abdominal muscles develop simultaneously.",
+    "category": "strength",
+    "images": "Crunch-With-Leg-Raise.gif",
+    "id": "Crunch-With-Leg-Raise"
+    },
+
+    {
+    "name": "Mountain Climber",
+    "primaryMuscles": [
+      "Abs",
+      "Cardio"
+    ],
+    "secondaryMuscles": [
+      "shoulders",
+      "chest"
+    ],
+    "benefits":"Mountain climber are an effective cardio strengthening workout. It can help you strengthen and develop both upper and lower body muscles.",
+    "category": "strength",
+    "images": "Mountain-climber.gif",
+    "id": "Mountain-climber"
+    },
+
+    {
+        "name": "Front to Side Plank",
+        "primaryMuscles": [
+          "Abs",
+          "hips",
+          "cardio",
+          "oblique "
+        ],
+        "secondaryMuscles": [
+          "shoulders",
+          "chest"
+        ],
+        "benefits":"Being a multi-functional movement, this exercise targets not only your abdominal muscles but also the spine and buttocks. Plank strengthens and tightens your entire body, improves your posture and balance, reduces body fat and can help speed up your metabolism.",
+        "category": "strength",
+        "images": "Front-to-Side-Plank.gif",
+        "id": "Front-to-Side-Plank"
+        },
+        
+        {
+            "name": "Leg Raise",
+            "primaryMuscles": [
+              "Abs",
+              "oblique"
+            ],
+            "secondaryMuscles": [
+           
+            ],
+            "benefits":"this exercise targets the rectus abdominus and oblique muscles, it is particularly useful for burning and tightening the lower fat.",
+            "category": "strength",
+            "images": "Leg-Raise.gif",
+            "id": "Leg-Raise"
+
+        },
+
+        {
+            "name":"Bicycle Crunch",
+            "primaryMuscles": [
+              "Abs",
+              "oblique",
+              "cardio"
+            ],
+            "secondaryMuscles": [
+              "Hip Flexors"
+            ],
+            "benefits":"a popular abdominal exercise that offers several benefits for those looking to strengthen their core and improve overall fitness.",
+            "category": "strength",
+            "images": "Bicycle-Crunch.gif",
+            "id": "Bicycle-Crunch"
+
+        },
+
+        {
+            "name":"Leg Scissors",
+            "primaryMuscles":[
+                "Abs"
+            ],
+            "secondaryMuscles":[
+                "Hip Flexors",
+                "hip"
+            ],
+            "benefits":"promotes greater flexibility and mobility. The wide range of motion required for each leg to move in an alternating scissor pattern helps in stretching the muscles, particularly the hip flexors and hamstrings",
+            "category": "strength",
+            "images": "Leg-Scissors.gif",
+            "id": "Leg-Scissors"
+        }
+]
