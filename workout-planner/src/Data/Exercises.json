@@ -93,5 +93,284 @@
             "category": "strength",
             "images": "Leg-Scissors.gif",
             "id": "Leg-Scissors"
-        }
+        },
+
+        {
+          "name":"Table Inverted Row",
+          "primaryMuscles":[
+            "Back and Wing"
+        ],
+        "secondaryMuscles":[
+            "Biceps(forearm)"
+        ],
+        "benefits":"The inverted row can be a good alternative to the bent-over barbell row, when you want a horizontal pulling exercise that takes all the strain off your lower back.",
+        "category": "strength",
+        "images": "Table-Inverted-Row.gif",
+        "id": "Table-Inverted-Row"
+        },
+
+        {
+          "name":"Swimming",
+          "primaryMuscles":[
+            "Back and Wing",
+            "Hip",
+            "Erector Spinae"
+        ],
+        "secondaryMuscles":[
+            "back hand"
+
+        ],
+        "benefits":"Swimming exercise is very useful for strengthening the upper and lower back. You will be exercising the superficial back muscles with every move you do.",
+        "category": "strength",
+        "images": "Swimming.gif",
+        "id": "Swimming"
+        },
+
+        {
+          "name":"Bodyweight Row in Doorway",
+          "primaryMuscles":[
+            "Back and Wing"
+          ],
+          "secondaryMuscles":[
+              "Biceps(forearm)",
+              "shoulders"
+
+          ],
+          "benefits":"a versatile and effective exercise that targets your upper body, primarily your back, shoulders, and arms",
+          "category": "strength",
+          "images": "Bodyweight-Row-in-Doorway.gif",
+          "id": "Bodyweight-Row-in-Doorway"
+        },
+
+        {
+          "name":"Band Seated Row",
+          "primaryMuscles":[
+            "Back and Wing"
+          ],
+          "secondaryMuscles":[
+              "Biceps(forearm)"
+
+          ],
+          "benefits":" it helps sculpt the upper and middle back, and promotes good posture.",
+          "category": "strength",
+          "images": "Band-Seated-Row.gif",
+          "id": "Band-Seated-Row"
+        },
+
+        
+        {
+          "name":"Romanian Deadlift",
+          "primaryMuscles":[
+            "Back and Wing",
+            "hip",
+            "leg"
+          ],
+          "secondaryMuscles":[
+              "inner thigh"
+
+          ],
+          "benefits":"an excellent exercise for building strength and muscle mass in targeted muscles. They involve a high level of muscle activation, which stimulates muscle growth and development.",
+          "category": "strength",
+          "images": "Barbell-Romanian-Deadlift.gif",
+          "id": "Barbell-Romanian-Deadlift"
+        },
+
+        {
+          "name":"Chin-Up",
+          "primaryMuscles":[
+            "Back and Wing",
+            "Biceps(forearm)"
+          ],
+          "secondaryMuscles":[
+              "neck"
+
+          ],
+          "benefits":"Chin-up is a closed-chain an exercise that works almost all of the muscle groups on the upper body and provides both hypertrophy and strength at body weight. The focus of the chin-ups exercise is on the back and biceps muscles. ",
+          "category": "strength",
+          "images": "Chin-Up.gif",
+          "id": "Chin-Up"
+        },
+
+        {
+          "name":"Seated Biceps Curl",
+          "primaryMuscles":[
+            "Biceps(forearm)"
+          ],
+          "secondaryMuscles":[
+
+          ],
+          "benefits":"a great way to strengthen the biceps muscles, which are essential for many sports movements such as throwing, hitting, and grappling.",
+          "category": "strength",
+          "images": "seated-biceps-curl.gif",
+          "id": "seated-biceps-curl"
+        },
+        
+        {
+          "name":"Waiter Curl",
+          "primaryMuscles":[
+            "Biceps(forearm)"
+          ],
+          "secondaryMuscles":[
+
+          ],
+          "benefits":"this exercise minimizes forearm and grip involvement, allowing you to focus solely on working the biceps. This isolation can lead to a more effective bicep workout, helping to build strength and size in this muscle group. ",
+          "category": "strength",
+          "images": "waiter-curl.gif",
+          "id": "waiter-curl"
+        },
+
+        {
+          "name":"One Arm Cable Curl",
+          "primaryMuscles":[
+            "Biceps(forearm)"
+          ],
+          "secondaryMuscles":[
+
+          ],
+          "benefits":"allow you to target the biceps more effectively, which can help you achieve greater muscle activation and growth in the weaker arm. This can be particularly useful for individuals who have one arm that is weaker than the other.",
+          "category": "strength",
+          "images": "One-Arm-Cable-Curl.gif",
+          "id": "One-Arm-Cable-Curl"
+        },
+
+        {
+          "name":"Overhead Cable Curl",
+          "primaryMuscles":[
+            "Biceps(forearm)"
+          ],
+          "secondaryMuscles":[
+              "shoulders"
+          ],
+          "benefits":"This position is designed to eliminate shoulder involvement and momentum, while targeting the biceps peak. As you curl the weight up, focus on squeezing your biceps at the top of the movement. This will help to maximize muscle activation and promote greater gains in strength and size.",
+          "category": "strength",
+          "images": "overhead-cable-curl.gif",
+          "id": "overhead-cable-curl"
+        },
+
+        {
+          "name":"Lying High Bench Barbell Curl",
+          "primaryMuscles":[
+            "Biceps(forearm)"
+          ],
+          "secondaryMuscles":[
+
+          ],
+          "benefits":"Lying on the bench helps to isolate the biceps muscles by minimizing involvement from other muscle groups, such as the shoulders and back. This isolation allows you to focus specifically on the biceps, ensuring that they are being properly targeted and engaged during the exercise.",
+          "category": "strength",
+          "images": "Lying-High-Bench-Barbell-Curl.gif",
+          "id": "Lying-High-Bench-Barbell-Curl"
+        },
+        
+        {
+        "name":"Hammer Curl",
+        "primaryMuscles":[
+          "Biceps(forearm)"
+        ],
+        "secondaryMuscles":[
+
+        ],
+        "benefits":"an effective exercise for targeting the brachioradialis muscle and the biceps muscle in the upper arm.",
+        "category": "strength",
+        "images": "Hammer-Curl.gif",
+        "id": "Hammer-Curl"
+       },
+
+       {
+        "name":"Kneeling Push-Up",
+        "primaryMuscles":[
+          "chest"
+        ],
+        "secondaryMuscles":[
+          "triceps (back arm)",
+          "shoulders"
+
+        ],
+        "benefits":"Reduces the intensity of a traditional push-up, making it accessible for those with limited upper body strength, Builds strength in the chest, shoulders, and triceps, creating a foundation for more advanced push-up variations.",
+        "category": "strength",
+        "images": "Kneeling-Push-up.gif",
+        "id": "Kneeling-Push-up"
+       },
+
+       {
+        "name":"Dumbbell Press",
+        "primaryMuscles":[
+          "chest"
+        ],
+        "secondaryMuscles":[
+          "triceps (back arm)",
+          "shoulders"
+
+        ],
+        "benefits":"Dumbbells allow a deeper stretch and contraction compared to a barbell, engaging the muscles more effectively and promoting flexibility and strength across a wider range of motion.",
+        "category": "strength",
+        "images": "Dumbbell-Press-1.gif",
+        "id": "Dumbbell-Press-1"
+       },
+
+       {
+        "name":"Dumbbell Fly",
+        "primaryMuscles":[
+          "chest"
+        ],
+        "secondaryMuscles":[
+          "triceps (back arm)",
+          "shoulders"
+
+        ],
+        "benefits":"Flys complement pressing movements (like bench presses or push-ups) by targeting the chest through a different plane of motion. This balance can help reduce muscle imbalances and improve overall strength symmetry.",
+        "category": "strength",
+        "images": "Dumbbell-Fly.gif",
+        "id": "Dumbbell-Fly"
+       },
+
+       {
+        "name":"Chest Dips",
+        "primaryMuscles":[
+          "chest"
+        ],
+        "secondaryMuscles":[
+          "triceps (back arm)",
+          "shoulders",
+          "back"
+
+        ],
+        "benefits":"Chest dips are one of the most effective bodyweight exercises for isolating and targeting the lower pectorals. The forward lean during the movement places more stress on the lower part of the pectoralis major, leading to increased strength and size in this region",
+        "category": "strength",
+        "images": "Chest-Dips.gif",
+        "id": "Chest-Dips"
+       },
+
+       {
+        "name":"Incline Barbell Bench Press",
+        "primaryMuscles":[
+          "chest"
+        ],
+        "secondaryMuscles":[
+          "triceps (back arm)",
+          "shoulders"
+
+        ],
+        "benefits":"The incline bench press targets the upper portion of the chest muscles, which is an area that can be difficult to target with other exercises. If you think your upper chest muscles are not developing, you can include the incline bench press movement in your programs.",
+        "category": "strength",
+        "images": "Incline-Barbell-Bench-Press.gif",
+        "id": "Incline-Barbell-Bench-Press"
+       },
+
+       {
+        "name":"Machine Butterfly",
+        "primaryMuscles":[
+          "chest"
+        ],
+        "secondaryMuscles":[
+          "triceps (back arm)",
+          "shoulders"
+
+        ],
+        "benefits":"The Butterfly exercise specifically targets the pectoralis major, allowing you to concentrate on chest development without significant involvement from other muscle groups. The guided motion of the machine ensures both sides of the chest receive equal work, promoting balanced muscle development.",
+        "category": "strength",
+        "images": "Butterfly-machine.gif",
+        "id": "Butterfly-machine"
+       }
+
+
 ]

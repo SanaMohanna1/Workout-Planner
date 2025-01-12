@@ -4,7 +4,13 @@ import { useParams } from 'react-router-dom';
 
 import exercisesData from '../Data/Exercises.json';
 import './ExerciseDetails.css';
-
+import { 
+  IonBackButton, 
+  IonButton,
+  IonButtons, 
+  IonIcon,
+  IonMenuButton 
+} from '@ionic/react';
 interface Params {
   id: string;
 }
@@ -37,6 +43,10 @@ const ExerciseDetails: React.FC = () => {
     <IonPage>
       <IonHeader>
         <IonToolbar>
+          <IonButtons slot="start">
+          <IonBackButton defaultHref={`/library/muscle/${exercise.primaryMuscles[0]}`}></IonBackButton>
+          </IonButtons>
+          <IonTitle>Back Button</IonTitle>
           <IonTitle>{exercise.name}</IonTitle>
         </IonToolbar>
       </IonHeader>

@@ -8,7 +8,7 @@ import ExerciseDetails from '../pages/ExerciseDetails';
 import CreateEditWorkout from '../pages/CreateEditWorkout';
 import Schedule from '../pages/Schedule';
 import Profile from '../pages/Profile';
-
+import MuscleExercises from '../pages/MuscleExercises';
 const Tabs: React.FC = () => {
   return (
     <IonTabs>
@@ -17,6 +17,7 @@ const Tabs: React.FC = () => {
         <Route exact path="/home" component={Home} />
         <Route exact path="/library" component={Library} />
         <Route exact path="/library/:id" component={ExerciseDetails} />
+        <Route exact path="/library/muscle/:muscle" component={MuscleExercises} />
         <Route exact path="/create" component={CreateEditWorkout} />
         <Route exact path="/edit/:id" component={CreateEditWorkout} />
         <Route exact path="/schedule" component={Schedule} />

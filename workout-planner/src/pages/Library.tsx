@@ -9,7 +9,7 @@ import {
   IonCardHeader,
   IonCardTitle,
   IonCardSubtitle,
-  IonCardContent,
+  IonList,
   IonSearchbar,
   IonImg,
 } from '@ionic/react';
@@ -17,23 +17,29 @@ import { useHistory } from 'react-router-dom';
 
 import './Library.css';
 import exercisesData from '../Data/Exercises.json';
-
+import armImg from '../imgs/arm.webp';
 const Library: React.FC = () => {
-  const [exercises, setExercises] = useState<any[]>([]);
+  const [muscleGroups, setMuscleGroups] = useState<{ [muscle: string]: any[] }>({});
   const [searchText, setSearchText] = useState('');
   const history = useHistory();
 
   useEffect(() => {
-    setExercises(exercisesData);
+    // Group exercises by first primary muscle
+    const grouped = exercisesData.reduce((acc: { [key: string]: any[] }, exercise) => {
+      const primaryMuscle = exercise.primaryMuscles[0];
+      if (!acc[primaryMuscle]) {
+        acc[primaryMuscle] = [];
+      }
+      acc[primaryMuscle].push(exercise);
+      return acc;
+    }, {});
+
+    setMuscleGroups(grouped);
   }, []);
 
-  const filteredExercises = exercises.filter(
-    (exercise) =>
-      exercise.name.toLowerCase().includes(searchText.toLowerCase()) ||
-      exercise.primaryMuscles.some((muscle: string) =>
-        muscle.toLowerCase().includes(searchText.toLowerCase()) ||
-      exercise.category.LoweCase().includes(searchText.toLowerCase())
-      )
+  // Filter muscle groups by search text
+  const filteredMuscles = Object.keys(muscleGroups).filter((muscle) =>
+    muscle.toLowerCase().includes(searchText.toLowerCase())
   );
 
   return (
@@ -45,33 +51,26 @@ const Library: React.FC = () => {
       </IonHeader>
       <IonContent className="ion-padding">
         <IonSearchbar
-          placeholder="Search by name or primary muscles or category"
+          placeholder="Search by muscle group"
           value={searchText}
           onIonInput={(e: any) => setSearchText(e.target.value)}
         ></IonSearchbar>
 
-        {/* Grid Container */}
-        <div className="library-grid">
-          {filteredExercises.map((exercise) => (
+        {/* Display Muscle Cards */}
+        <IonList className="library-grid">
+          {filteredMuscles.map((muscle) => (
             <IonCard
-              key={exercise.id}
+              key={muscle}
               className="library-card"
-              onClick={() => history.push(`/library/${exercise.id}`)}
+              onClick={() => history.push(`/library/muscle/${muscle}`)} // Navigate to muscle page
             >
-              <IonImg
-                src={`src/Data/exercises_gif/${exercise.images}`}
-                alt={exercise.name}
-              />
               <IonCardHeader>
-                <IonCardTitle>{exercise.name}</IonCardTitle>
-                <IonCardSubtitle>
-                  {exercise.category.charAt(0).toUpperCase() + exercise.category.slice(1)} |{' '}
-                  {exercise.primaryMuscles.join(', ')}
-                </IonCardSubtitle>
+                <IonCardTitle>{muscle}</IonCardTitle>
+                <IonCardSubtitle>{muscleGroups[muscle].length} Exercises</IonCardSubtitle>
               </IonCardHeader>
             </IonCard>
           ))}
-        </div>
+        </IonList>
       </IonContent>
     </IonPage>
   );
