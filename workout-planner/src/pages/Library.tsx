@@ -5,19 +5,13 @@ import {
   IonToolbar,
   IonTitle,
   IonContent,
-  IonCard,
-  IonCardHeader,
-  IonCardTitle,
-  IonCardSubtitle,
-  IonList,
   IonSearchbar,
-  IonImg,
 } from '@ionic/react';
 import { useHistory } from 'react-router-dom';
 
 import './Library.css';
 import exercisesData from '../Data/Exercises.json';
-import armImg from '../imgs/arm.webp';
+
 const Library: React.FC = () => {
   const [muscleGroups, setMuscleGroups] = useState<{ [muscle: string]: any[] }>({});
   const [searchText, setSearchText] = useState('');
@@ -56,21 +50,24 @@ const Library: React.FC = () => {
           onIonInput={(e: any) => setSearchText(e.target.value)}
         ></IonSearchbar>
 
-        {/* Display Muscle Cards */}
-        <IonList className="library-grid">
-          {filteredMuscles.map((muscle) => (
-            <IonCard
-              key={muscle}
-              className="library-card"
-              onClick={() => history.push(`/library/muscle/${muscle}`)} // Navigate to muscle page
-            >
-              <IonCardHeader>
-                <IonCardTitle>{muscle}</IonCardTitle>
-                <IonCardSubtitle>{muscleGroups[muscle].length} Exercises</IonCardSubtitle>
-              </IonCardHeader>
-            </IonCard>
-          ))}
-        </IonList>
+        {/* Display Muscle Images */}
+        <div className="muscle-grid">
+            {filteredMuscles.map((muscle) => (
+              <div
+                key={muscle}
+                className="muscle-item"
+                onClick={() => history.push(`/library/muscle/${muscle}`)}
+              >
+                <img
+                  src={`src/imgs/${muscle}.jpg`}
+                  alt={muscle}
+                  className="muscle-img" /* Updated styles will apply here */
+                />
+                <p className="muscle-label">{muscle} ({muscleGroups[muscle].length} Exercises)</p>
+              </div>
+            ))}
+          </div>
+
       </IonContent>
     </IonPage>
   );

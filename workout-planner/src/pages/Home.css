@@ -1,8 +1,6 @@
-/* Home.css */
-
 /* General Content Padding */
 .ion-content {
-  padding: 0; /* Remove extra padding to fit the grid nicely */
+  padding: 0; /* Remove extra padding for better alignment */
 }
 
 /* Welcome Section */
@@ -23,62 +21,75 @@
   margin-top: 8px;
 }
 
-/* Toolbar styling */
+/* Toolbar Styling */
 ion-toolbar {
-  --background: var(--ion-color-primary); /* Set the background color */
+  --background: var(--ion-color-primary); /* Set the toolbar background */
   --color: var(--ion-color-light); /* Set the text/icon color */
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   padding: 0 16px;
 }
 
-/* FontAwesome Icon styling (as a logo) */
+/* FontAwesome Icon Styling (as a Logo) */
 ion-toolbar .fa-dumbbell {
-  font-size: 4rem; /* Make the icon larger */
-  margin-right: 12px; /* Add spacing between icon and title */
-  color: var(--ion-color-light); /* Match toolbar text color */
+  font-size: 3rem; /* Adjusted icon size for better balance */
+  margin-right: 12px; /* Space between icon and title */
+  color: var(--ion-color-light);
 }
 
-/* Title styling */
+/* Title Styling */
 ion-title {
-  font-size: 1.8rem; /* Make the title larger for a bold header */
-  font-weight: bold; /* Emphasize the title */
-  text-align: center; /* Center the title */
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 auto;
+  color: var(--ion-color-light);
 }
 
-/* Adjusting layout for centered logo and title */
+/* Center Logo and Title */
 ion-toolbar {
   display: flex;
   align-items: center;
+  justify-content: center; /* Center align title and icon */
 }
 
 .fa-dumbbell + ion-title {
-  flex: 1; /* Center the title with the icon */
+  flex: 1;
+  text-align: center;
 }
-/* Card Grid */
+
+/* Card Grid Layout */
 .card-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Two columns */
-  gap: 10px; /* Space between cards */
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Flexible layout */
+  gap: 16px; /* Space between cards */
   padding: 16px;
-  justify-items: center; /* Center align the cards */
+  justify-items: center; /* Center align cards */
 }
 
 /* Card Styling */
 ion-card {
-  width: 100%; /* Full width of grid cell */
-  max-width: 500px; /* Limit card size */
+  width: 100%;
+  max-width: 300px; /* Adjusted card size for consistency */
   border-radius: 12px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for cards */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
   overflow: hidden; /* Ensure content doesn't overflow the card */
+  transition: transform 0.2s ease, box-shadow 0.2s ease; /* Add animation */
+  cursor: pointer; /* Indicate clickable behavior */
+}
+
+/* Card Hover Effects */
+ion-card:hover {
+  transform: translateY(-6px); /* Slight lift on hover */
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
 }
 
 /* Card Images */
 ion-card img {
-  width: 100%; /* Full width of card */
-  height: 300px; /* Fixed height for all images */
-  object-fit: cover; /* Ensures images fill the area without distortion */
+  width: 100%; /* Full width */
+  height: 200px; /* Uniform height for images */
+  object-fit: cover; /* Ensures images fit without distortion */
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
 }
@@ -86,11 +97,13 @@ ion-card img {
 /* Card Header and Content */
 ion-card-header,
 ion-card-content {
-  text-align: center; /* Center align card content */
+  text-align: center; /* Center align content */
+  padding: 8px 16px;
 }
 
 ion-card-title {
   font-size: 1.4rem;
+  font-weight: bold;
   color: var(--ion-color-primary);
 }
 
@@ -103,5 +116,13 @@ ion-card-subtitle {
 @media (max-width: 600px) {
   .card-grid {
     grid-template-columns: 1fr; /* Single column for smaller screens */
+  }
+
+  ion-card {
+    max-width: 90%; /* Adjust card width on smaller screens */
+  }
+
+  ion-card img {
+    height: 150px; /* Reduce image height for smaller screens */
   }
 }

@@ -5,9 +5,7 @@ import { home, list, calendar, person, create } from 'ionicons/icons';
 import Home from '../pages/Home';
 import Library from '../pages/Library';
 import ExerciseDetails from '../pages/ExerciseDetails';
-import CreateEditWorkout from '../pages/CreateEditWorkout';
-import Schedule from '../pages/Schedule';
-import Profile from '../pages/Profile';
+import CreateEditWorkout from '../pages/Create';
 import MuscleExercises from '../pages/MuscleExercises';
 const Tabs: React.FC = () => {
   return (
@@ -20,8 +18,6 @@ const Tabs: React.FC = () => {
         <Route exact path="/library/muscle/:muscle" component={MuscleExercises} />
         <Route exact path="/create" component={CreateEditWorkout} />
         <Route exact path="/edit/:id" component={CreateEditWorkout} />
-        <Route exact path="/schedule" component={Schedule} />
-        <Route exact path="/profile" component={Profile} />
         <Route exact path="/">
           <Redirect to="/home" />
         </Route>
@@ -40,14 +36,6 @@ const Tabs: React.FC = () => {
         <IonTabButton tab="create" href="/create">
           <IonIcon icon={create} />
           <IonLabel>Create</IonLabel>
-        </IonTabButton>
-        <IonTabButton tab="schedule" href="/schedule">
-          <IonIcon icon={calendar} />
-          <IonLabel>Schedule</IonLabel>
-        </IonTabButton>
-        <IonTabButton tab="profile" href="/profile">
-          <IonIcon icon={person} />
-          <IonLabel>Profile</IonLabel>
         </IonTabButton>
       </IonTabBar>
     </IonTabs>

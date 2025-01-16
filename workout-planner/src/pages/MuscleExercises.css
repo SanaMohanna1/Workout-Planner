@@ -2,7 +2,13 @@
 .muscle-padding {
     padding: 16px;
   }
-  
+
+  /* Non-clickable card styling */
+  .non-clickable {
+    pointer-events: none; /* Disable interaction */
+    opacity: 0.6; /* Dim the appearance to indicate it's inactive */
+    }
+
   /* Grid layout for the muscle exercise cards */
   .muscle-grid {
     display: grid;

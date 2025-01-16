@@ -65,6 +65,8 @@ const ExerciseDetails: React.FC = () => {
 
         {/* Primary Muscles Section */}
         <div className="details-section">
+          <h2>Recommended:</h2>
+          <p>{exercise.setsAndReps}</p>
           <h2>Primary Muscles</h2>
           <div className="details-muscle-list">
             {exercise.primaryMuscles.map((muscle: string, index: number) => (

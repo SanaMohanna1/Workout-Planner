@@ -1,0 +1,49 @@
+.create-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+  }
+  
+  .create-icon p {
+    font-size: 1.2rem;
+    color: var(--ion-color-medium);
+  }
+  
+  .library-view {
+    padding: 16px;
+  }
+  
+  .library-view h2 {
+    text-align: center;
+    color: var(--ion-color-primary);
+  }
+  
+  .muscle-group h3 {
+    margin-top: 16px;
+    margin-bottom: 8px;
+    color: var(--ion-color-dark);
+  }
+  
+  .selected-exercises {
+    padding: 16px;
+  }
+  
+  .selected-exercises h2 {
+    text-align: center;
+    color: var(--ion-color-primary);
+  }
+
+  .selected-exercises .muscle-group h3 {
+    margin-top: 16px;
+    margin-bottom: 8px;
+  }
+  
+  .exercise-img {
+    width: 80px; /* Set width for images */
+    height: 80px; /* Set height for images */
+    object-fit: cover; /* Maintain aspect ratio */
+    border-radius: 8px; /* Rounded corners */
+    margin-right: 8px;
+  }

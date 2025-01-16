@@ -1,35 +1,37 @@
 [
-    {
-    "name": "Crunch With Leg Raise",
-    "primaryMuscles": [
-      "Abs"
-    ],
-    "secondaryMuscles": [
-      "Low back"
-    ],
-    "benefits":"The crunch with leg raise exercise targets the rectus abdominis and oblique muscles, so that the upper and lower abdominal muscles develop simultaneously.",
-    "category": "strength",
-    "images": "Crunch-With-Leg-Raise.gif",
-    "id": "Crunch-With-Leg-Raise"
-    },
+        {
+        "name": "Crunch With Leg Raise",
+        "primaryMuscles": [
+          "Abs"
+        ],
+        "secondaryMuscles": [
+          "lower back"
+        ],
+        "benefits":"The crunch with leg raise exercise targets the rectus abdominis and oblique muscles, so that the upper and lower abdominal muscles develop simultaneously.",
+        "category": "strength",
+        "images": "Crunch-With-Leg-Raise.gif",
+        "id": "Crunch-With-Leg-Raise",
+        "setsAndReps": "20 reps * 3 sets"
+        },
 
-    {
-    "name": "Mountain Climber",
-    "primaryMuscles": [
-      "Abs",
-      "Cardio"
-    ],
-    "secondaryMuscles": [
-      "shoulders",
-      "chest"
-    ],
-    "benefits":"Mountain climber are an effective cardio strengthening workout. It can help you strengthen and develop both upper and lower body muscles.",
-    "category": "strength",
-    "images": "Mountain-climber.gif",
-    "id": "Mountain-climber"
-    },
+        {
+        "name": "Mountain Climber",
+        "primaryMuscles": [
+          "Abs",
+          "Cardio"
+        ],
+        "secondaryMuscles": [
+          "shoulders",
+          "chest"
+        ],
+        "benefits":"Mountain climber are an effective cardio strengthening workout. It can help you strengthen and develop both upper and lower body muscles.",
+        "category": "strength",
+        "images": "Mountain-climber.gif",
+        "id": "Mountain-climber",
+        "setsAndReps": "20 reps * 3 sets"
+        },
 
-    {
+        {
         "name": "Front to Side Plank",
         "primaryMuscles": [
           "Abs",
@@ -44,7 +46,8 @@
         "benefits":"Being a multi-functional movement, this exercise targets not only your abdominal muscles but also the spine and buttocks. Plank strengthens and tightens your entire body, improves your posture and balance, reduces body fat and can help speed up your metabolism.",
         "category": "strength",
         "images": "Front-to-Side-Plank.gif",
-        "id": "Front-to-Side-Plank"
+        "id": "Front-to-Side-Plank",
+        "setsAndReps": "20 reps * 3 sets"
         },
         
         {
@@ -59,7 +62,8 @@
             "benefits":"this exercise targets the rectus abdominus and oblique muscles, it is particularly useful for burning and tightening the lower fat.",
             "category": "strength",
             "images": "Leg-Raise.gif",
-            "id": "Leg-Raise"
+            "id": "Leg-Raise",
+            "setsAndReps": "20 reps * 3 sets"
 
         },
 
@@ -76,7 +80,8 @@
             "benefits":"a popular abdominal exercise that offers several benefits for those looking to strengthen their core and improve overall fitness.",
             "category": "strength",
             "images": "Bicycle-Crunch.gif",
-            "id": "Bicycle-Crunch"
+            "id": "Bicycle-Crunch",
+            "setsAndReps": "20 reps * 3 sets"
 
         },
 
@@ -92,7 +97,8 @@
             "benefits":"promotes greater flexibility and mobility. The wide range of motion required for each leg to move in an alternating scissor pattern helps in stretching the muscles, particularly the hip flexors and hamstrings",
             "category": "strength",
             "images": "Leg-Scissors.gif",
-            "id": "Leg-Scissors"
+            "id": "Leg-Scissors",
+            "setsAndReps": "20 reps * 3 sets"
         },
 
         {
@@ -106,7 +112,8 @@
         "benefits":"The inverted row can be a good alternative to the bent-over barbell row, when you want a horizontal pulling exercise that takes all the strain off your lower back.",
         "category": "strength",
         "images": "Table-Inverted-Row.gif",
-        "id": "Table-Inverted-Row"
+        "id": "Table-Inverted-Row",
+        "setsAndReps": "12 reps * 3 sets"
         },
 
         {
@@ -123,7 +130,8 @@
         "benefits":"Swimming exercise is very useful for strengthening the upper and lower back. You will be exercising the superficial back muscles with every move you do.",
         "category": "strength",
         "images": "Swimming.gif",
-        "id": "Swimming"
+        "id": "Swimming",
+        "setsAndReps": "15 reps * 3 sets"
         },
 
         {
@@ -139,7 +147,8 @@
           "benefits":"a versatile and effective exercise that targets your upper body, primarily your back, shoulders, and arms",
           "category": "strength",
           "images": "Bodyweight-Row-in-Doorway.gif",
-          "id": "Bodyweight-Row-in-Doorway"
+          "id": "Bodyweight-Row-in-Doorway",
+          "setsAndReps": "20 reps * 3 sets"
         },
 
         {
@@ -154,7 +163,8 @@
           "benefits":" it helps sculpt the upper and middle back, and promotes good posture.",
           "category": "strength",
           "images": "Band-Seated-Row.gif",
-          "id": "Band-Seated-Row"
+          "id": "Band-Seated-Row",
+          "setsAndReps": "15 reps * 3 sets"
         },
 
         
@@ -172,7 +182,8 @@
           "benefits":"an excellent exercise for building strength and muscle mass in targeted muscles. They involve a high level of muscle activation, which stimulates muscle growth and development.",
           "category": "strength",
           "images": "Barbell-Romanian-Deadlift.gif",
-          "id": "Barbell-Romanian-Deadlift"
+          "id": "Barbell-Romanian-Deadlift",
+          "setsAndReps": "15 reps * 3 sets"
         },
 
         {
@@ -188,7 +199,8 @@
           "benefits":"Chin-up is a closed-chain an exercise that works almost all of the muscle groups on the upper body and provides both hypertrophy and strength at body weight. The focus of the chin-ups exercise is on the back and biceps muscles. ",
           "category": "strength",
           "images": "Chin-Up.gif",
-          "id": "Chin-Up"
+          "id": "Chin-Up",
+          "setsAndReps": "10 reps * 3 sets"
         },
 
         {
@@ -202,7 +214,8 @@
           "benefits":"a great way to strengthen the biceps muscles, which are essential for many sports movements such as throwing, hitting, and grappling.",
           "category": "strength",
           "images": "seated-biceps-curl.gif",
-          "id": "seated-biceps-curl"
+          "id": "seated-biceps-curl",
+          "setsAndReps": "15 reps * 3 sets"
         },
         
         {
@@ -216,7 +229,8 @@
           "benefits":"this exercise minimizes forearm and grip involvement, allowing you to focus solely on working the biceps. This isolation can lead to a more effective bicep workout, helping to build strength and size in this muscle group. ",
           "category": "strength",
           "images": "waiter-curl.gif",
-          "id": "waiter-curl"
+          "id": "waiter-curl",
+          "setsAndReps": "20 reps * 3 sets"
         },
 
         {
@@ -230,7 +244,8 @@
           "benefits":"allow you to target the biceps more effectively, which can help you achieve greater muscle activation and growth in the weaker arm. This can be particularly useful for individuals who have one arm that is weaker than the other.",
           "category": "strength",
           "images": "One-Arm-Cable-Curl.gif",
-          "id": "One-Arm-Cable-Curl"
+          "id": "One-Arm-Cable-Curl",
+          "setsAndReps": "12 reps * 4 sets"
         },
 
         {
@@ -244,7 +259,8 @@
           "benefits":"This position is designed to eliminate shoulder involvement and momentum, while targeting the biceps peak. As you curl the weight up, focus on squeezing your biceps at the top of the movement. This will help to maximize muscle activation and promote greater gains in strength and size.",
           "category": "strength",
           "images": "overhead-cable-curl.gif",
-          "id": "overhead-cable-curl"
+          "id": "overhead-cable-curl",
+          "setsAndReps": "12 reps * 4 sets"
         },
 
         {
@@ -258,7 +274,8 @@
           "benefits":"Lying on the bench helps to isolate the biceps muscles by minimizing involvement from other muscle groups, such as the shoulders and back. This isolation allows you to focus specifically on the biceps, ensuring that they are being properly targeted and engaged during the exercise.",
           "category": "strength",
           "images": "Lying-High-Bench-Barbell-Curl.gif",
-          "id": "Lying-High-Bench-Barbell-Curl"
+          "id": "Lying-High-Bench-Barbell-Curl",
+          "setsAndReps": "12 reps * 3 sets"
         },
         
         {
@@ -272,7 +289,8 @@
         "benefits":"an effective exercise for targeting the brachioradialis muscle and the biceps muscle in the upper arm.",
         "category": "strength",
         "images": "Hammer-Curl.gif",
-        "id": "Hammer-Curl"
+        "id": "Hammer-Curl",
+        "setsAndReps": "15 reps * 3 sets"
        },
 
        {
@@ -288,7 +306,8 @@
         "benefits":"Reduces the intensity of a traditional push-up, making it accessible for those with limited upper body strength, Builds strength in the chest, shoulders, and triceps, creating a foundation for more advanced push-up variations.",
         "category": "strength",
         "images": "Kneeling-Push-up.gif",
-        "id": "Kneeling-Push-up"
+        "id": "Kneeling-Push-up",
+        "setsAndReps": "20 reps * 3 sets"
        },
 
        {
@@ -304,7 +323,8 @@
         "benefits":"Dumbbells allow a deeper stretch and contraction compared to a barbell, engaging the muscles more effectively and promoting flexibility and strength across a wider range of motion.",
         "category": "strength",
         "images": "Dumbbell-Press-1.gif",
-        "id": "Dumbbell-Press-1"
+        "id": "Dumbbell-Press-1",
+        "setsAndReps": "15 reps * 3 sets"
        },
 
        {
@@ -320,7 +340,8 @@
         "benefits":"Flys complement pressing movements (like bench presses or push-ups) by targeting the chest through a different plane of motion. This balance can help reduce muscle imbalances and improve overall strength symmetry.",
         "category": "strength",
         "images": "Dumbbell-Fly.gif",
-        "id": "Dumbbell-Fly"
+        "id": "Dumbbell-Fly",
+        "setsAndReps": "12 reps * 3 sets"
        },
 
        {
@@ -337,7 +358,8 @@
         "benefits":"Chest dips are one of the most effective bodyweight exercises for isolating and targeting the lower pectorals. The forward lean during the movement places more stress on the lower part of the pectoralis major, leading to increased strength and size in this region",
         "category": "strength",
         "images": "Chest-Dips.gif",
-        "id": "Chest-Dips"
+        "id": "Chest-Dips",
+        "setsAndReps": "15 reps * 3 sets"
        },
 
        {
@@ -353,7 +375,8 @@
         "benefits":"The incline bench press targets the upper portion of the chest muscles, which is an area that can be difficult to target with other exercises. If you think your upper chest muscles are not developing, you can include the incline bench press movement in your programs.",
         "category": "strength",
         "images": "Incline-Barbell-Bench-Press.gif",
-        "id": "Incline-Barbell-Bench-Press"
+        "id": "Incline-Barbell-Bench-Press",
+        "setsAndReps": "15 reps * 4 sets"
        },
 
        {
@@ -369,8 +392,604 @@
         "benefits":"The Butterfly exercise specifically targets the pectoralis major, allowing you to concentrate on chest development without significant involvement from other muscle groups. The guided motion of the machine ensures both sides of the chest receive equal work, promoting balanced muscle development.",
         "category": "strength",
         "images": "Butterfly-machine.gif",
-        "id": "Butterfly-machine"
+        "id": "Butterfly-machine",
+        "setsAndReps": "15 reps * 4 sets"
+       },
+
+       {
+        "name":"Smith Machine Squat",
+        "primaryMuscles":[
+          "leg",
+          "hip"
+        ],
+        "secondaryMuscles":[
+          "calf",
+          "lower back"
+        ],
+        "benefits":"The Smith machine provides stability, especially for beginners or those recovering from injury. The guided bar path reduces the risk of wobbling or tipping, allowing you to focus more on the movement and less on balance.",
+        "category": "strength",
+        "images": "smith-machine-squat.gif",
+        "id": "smith-machine-squat",
+        "setsAndReps": "15 reps * 4 sets"
+       },
+
+       {
+        "name":"Curtsy Lunge",
+        "primaryMuscles":[
+          "leg",
+          "hip"
+        ],
+        "secondaryMuscles":[
+         "calf"
+
+        ],
+        "benefits":"Performing curtsy lunges challenges your balance and stability as you move in a diagonal direction, which helps strengthen the stabilizing muscles around your joints and core.",
+        "category": "strength",
+        "images": "curtsy-lunge.gif",
+        "id": "curtsy-lunge",
+        "setsAndReps": "12 reps * 4 sets"
+       },
+
+       {
+        "name":"Dumbbell Walking Lunge",
+        "primaryMuscles":[
+          "leg",
+          "hip"
+        ],
+        "secondaryMuscles":[
+         "calf"
+
+        ],
+        "benefits":"Dumbbell walking lunges are a highly effective exercise for targeting and strengthening various muscle groups in your lower body. The primary muscles worked include the quadriceps, hamstrings, glutes, and calves. Strengthening these muscle groups can improve your ability to perform lower body movements, such as squatting, jumping, and running, with greater ease and power.",
+        "category": "strength",
+        "images": "dumbbell-lunges.gif",
+        "id": "dumbbell-lunges",
+        "setsAndReps": "10 reps * 4 sets"
+       },
+
+       {
+        "name":"Bulgarian Split Squat Jump",
+        "primaryMuscles":[
+          "leg",
+          "hip"
+        ],
+        "secondaryMuscles":[
+         "calf"
+
+        ],
+        "benefits":"Bulgarian Split Squat Jumps require greater muscle activation than traditional squats, especially in the quadriceps, hamstrings, and glutes. This is because they require a rapid stretch-shortening cycle, which causes the muscle fibers to contract more forcefully.",
+        "category": "strength",
+        "images": "Bulgarian-Jump-Squat.gif",
+        "id": "Bulgarian-Jump-Squat",
+        "setsAndReps": "15 reps * 3 sets"
+       },
+
+       {
+        "name":"Good Morning",
+        "primaryMuscles":[
+          "leg",
+          "hip",
+          "Erector Spinae"
+        ],
+        "secondaryMuscles":[
+         "Lower back"
+
+        ],
+        "benefits":"Targets hamstrings, glutes, and spinal erectors, Reinforces proper hip movement patterns crucial for deadlifts and squats.",
+        "category": "strength",
+        "images": "Barbell-Good-Morning.gif",
+        "id": "Barbell-Good-Morning",
+        "setsAndReps": "15 reps * 3 sets"
+       },
+
+       {
+        "name":"Jump Squats",
+        "primaryMuscles":[
+          "leg",
+          "hip"
+        ],
+        "secondaryMuscles":[
+         "calf"
+
+        ],
+        "benefits":"Jump Squats are a plyometric exercise. Plyometrics are explosive aerobic moves that increase speed, quickness, and power and they work your whole body.",
+        "category": "strength",
+        "images": "Jump-Squat.gif",
+        "id": "Jump-Squat",
+        "setsAndReps": "20 reps * 3 sets"
+       },
+       
+       {
+        "name":"Kettlebell Swings",
+        "primaryMuscles":[
+          "leg",
+          "hip"
+
+        ],
+        "secondaryMuscles":[
+         "Abs",
+         "shoulders"
+
+        ],
+        "benefits":"Kettlebell swings engage multiple muscle groups simultaneously, including the hips, glutes, hamstrings, core, back, shoulders, and arms. This makes it an excellent full-body exercise that can help you save time while working on multiple areas at once.",
+        "category": "strength",
+        "images": "Kettlebell-Swings.gif",
+        "id": "Kettlebell-Swings",
+        "setsAndReps": "15 reps * 3 sets"
+       },
+
+       {
+        "name":"Leg Press",
+        "primaryMuscles":[
+          "leg"
+        ],
+        "secondaryMuscles":[
+        
+
+        ],
+        "benefits":"The leg press allows you to use heavy weights, which can promote muscle hypertrophy (growth) in the lower body. If your goal is to add volume to your legs, leg press is one of the best leg exercises that focus solely on the big leg muscles.",
+        "category": "strength",
+        "images": "Leg-Press.gif",
+        "id": "Leg-Press",
+        "setsAndReps": "15 reps * 3 sets"
+       },
+
+       {
+        "name":"Leg Curl",
+        "primaryMuscles":[
+          "leg"
+        ],
+        "secondaryMuscles":[
+        
+
+        ],
+        "benefits":"Leg curls are an effective exercise for increasing lower body strength, particularly in the hamstrings. Strengthening these muscles can contribute to improved athletic performance in activities such as running, jumping, and squatting.",
+        "category": "strength",
+        "images": "Leg-Curl.gif",
+        "id": "Leg-Curl",
+        "setsAndReps": "20 reps * 3 sets"
+       },
+
+       {
+        "name":"Leg Extension",
+        "primaryMuscles":[
+          "leg"
+        ],
+        "secondaryMuscles":[
+        
+
+        ],
+        "benefits":"Leg extensions can help enhance the definition and shape of the quadriceps muscles. As the quadriceps become stronger and more developed, they can contribute to a more aesthetic appearance of the legs.",
+        "category": "strength",
+        "images": "LEG-EXTENSION.gif",
+        "id": "LEG-EXTENSION",
+        "setsAndReps": "20 reps * 3 sets"
+       },
+
+       {
+        "name":"Standing Dumbbell Shoulder Press",
+        "primaryMuscles":[
+          "shoulders"
+        ],
+        "secondaryMuscles":[
+          "triceps (back arm)"
+        ],
+        "benefits":"The standing dumbbell shoulder press is a compound exercise, meaning it involves multiple joints and muscle groups. This results in more muscle fibers being recruited, contributing to greater overall shoulder muscle development.",
+        "category": "strength",
+        "images": "Standing-Dumbbell-Overhead-Press.gif",
+        "id": "Standing-Dumbbell-Overhead-Press",
+        "setsAndReps": "12 reps * 3 sets"
+       },
+
+       {
+        "name":"Dumbbell Lateral Raise",
+        "primaryMuscles":[
+          "shoulders"
+        ],
+        "secondaryMuscles":[
+          "upper back"
+        ],
+        "benefits":"The primary benefit of dumbbell lateral raises is the targeted development of the lateral deltoids, which are the muscles on the sides of your shoulders. By regularly performing this exercise, you can increase the size, strength, and definition of these muscles, contributing to a more sculpted and well-rounded shoulder appearance.",
+        "category": "strength",
+        "images": "Dumbbell-Lateral-Raise.gif",
+        "id": "Dumbbell-Lateral-Raise",
+        "setsAndReps": "12 reps * 3 sets"
+       },
+
+       {
+        "name":"45 Degree Incline Row",
+        "primaryMuscles":[
+          "shoulders"
+        ],
+        "secondaryMuscles":[
+          "upper back"
+        ],
+        "benefits":"The 45-degree incline row is a compound exercise, which means it engages multiple muscle groups and joints. Compound exercises are effective for building overall strength and muscle mass, as they allow for more weight to be lifted and more muscles to be worked in a single movement.",
+        "category": "strength",
+        "images": "45-Degree-Incline-Row.gif",
+        "id": "45-Degree-Incline-Row",
+        "setsAndReps": "12 reps * 3 sets"
+       },
+
+       {
+        "name":"Standing Close Grip Military Press",
+        "primaryMuscles":[
+          "shoulders",
+          "triceps (back arm)"
+        ],
+        "secondaryMuscles":[
+          "upper back"
+        ],
+        "benefits":"The Close Grip Military Press is a compound exercise that engages multiple muscle groups in the upper body, including the triceps, deltoids, upper back, and core. It promotes overall upper body strength and stability, helping you develop pressing strength and power. ",
+        "category": "strength",
+        "images": "Standing-Barbell-Close-Grip-Military-Press.gif",
+        "id": "Standing-Barbell-Close-Grip-Military-Press",
+        "setsAndReps": "15 reps * 3 sets"
+       },
+
+       {
+        "name":"Scott Press",
+        "primaryMuscles":[
+          "shoulders"
+        ],
+        "secondaryMuscles":[
+          "upper back"
+        ],
+        "benefits":"By targeting all three heads of the deltoid at once, the Scott Press ensures balanced shoulder development. This can lead to improved aesthetics, symmetry, and strength in the shoulder region.",
+        "category": "strength",
+        "images": "scott-press.gif",
+        "id": "scott-press",
+        "setsAndReps": "12 reps * 3 sets"
+       },
+
+       {
+        "name":"Weight Plate Front Raise",
+        "primaryMuscles":[
+          "shoulders"
+        ],
+        "secondaryMuscles":[
+          "neck"
+        ],
+        "benefits":"The Weight plate front raise is a isole exercise that targets the fronts and sides of the shoulders. Suitable for all levels, this shoulder flexion exercise is a good option for building strength, improving shoulder mobility and shaping your shoulder heads.",
+        "category": "strength",
+        "images": "Weight-Plate-Front-Raise-1.gif",
+        "id": "Weight-Plate-Front-Raise-1",
+        "setsAndReps": "15 reps * 3 sets"
+       },
+
+       {
+        "name":"Push-down",
+        "primaryMuscles":[
+          "triceps (back arm)"
+        ],
+        "secondaryMuscles":[
+        ],
+        "benefits":"As the triceps become stronger and more toned, your arms’ overall appearance will improve. Well-developed triceps add definition to your arms, giving them a more sculpted and aesthetically pleasing look.",
+        "category": "strength",
+        "images": "Pushdown.gif",
+        "id": "Pushdown",
+        "setsAndReps": "15 reps * 3 sets"
+       },
+
+       {
+        "name":"Seated Dumbbell Triceps Extension",
+        "primaryMuscles":[
+          "triceps (back arm)"
+        ],
+        "secondaryMuscles":[
+        ],
+        "benefits":"Seated Dumbbell Triceps Extension is a single joint isolating exercise that provides strength and muscle development. Overhead extension movements are particularly useful in targeting the long head of the triceps muscle.",
+        "category": "strength",
+        "images": "Seated-Dumbbell-Triceps-Extension.gif",
+        "id": "Seated-Dumbbell-Triceps-Extension",
+        "setsAndReps": "10 reps * 4 sets"
+       },
+
+       {
+        "name":"Dumbbell Skull Crusher",
+        "primaryMuscles":[
+          "triceps (back arm)"
+        ],
+        "secondaryMuscles":[
+        ],
+        "benefits":"The skull crusher is an isolation exercise that works the triceps muscle. You can incorporate this exercise into your workouts to tighten flabby arms and tone your arm muscles.",
+        "category": "strength",
+        "images": "Dumbbell-Skull-Crusher.gif",
+        "id": "Dumbbell-Skull-Crusher",
+        "setsAndReps": "15 reps * 3 sets"
+       },
+
+       {
+        "name":"Cable Rope Overhead Triceps Extension",
+        "primaryMuscles":[
+          "triceps (back arm)"
+        ],
+        "secondaryMuscles":[
+        ],
+        "benefits":"The cable rope overhead triceps extension exercise works the tricep muscle by reaching behind your neck and helping build stronger and bigger arms.",
+        "category": "strength",
+        "images": "Cable-Rope-Overhead-Triceps-Extension.gif",
+        "id": "Cable-Rope-Overhead-Triceps-Extension",
+        "setsAndReps": "12 reps * 3 sets"
+       },
+
+       {
+        "name":"Lever Triceps Dip",
+        "primaryMuscles":[
+          "triceps (back arm)"
+        ],
+        "secondaryMuscles":[
+          "chest"
+        ],
+        "benefits":"Lever Triceps Dip is an compound triceps exercise that increases arm strength and develop arm muscles. Although the focus is on the triceps muscles, it also works the chest, shoulder and back muscles.",
+        "category": "strength",
+        "images": "Lever-Overhand-Triceps-Dip.gif",
+        "id": "Lever-Overhand-Triceps-Dip",
+        "setsAndReps": "20 reps * 3 sets"
+       },
+
+       {
+        "name":"Triceps Dips on Floor",
+        "primaryMuscles":[
+          "triceps (back arm)"
+        ],
+        "secondaryMuscles":[
+        ],
+        "benefits":"Triceps dips on floor are a compound exercise as they worked multiple muscle groups simultaneously. Although this bodyweight exercise mainly targets the triceps, it also hits your chest and front of your shoulder.",
+        "category": "strength",
+        "images": "Triceps-dips-on-floors.gif",
+        "id": "Triceps-dips-on-floors",
+        "setsAndReps": "20 reps * 3 sets"
+       },
+
+       {
+        "name":"Warrior 1 Pose",
+        "primaryMuscles":[
+          "yoga full body"
+        ],
+        "secondaryMuscles":[
+        ],
+        "benefits":" ",
+        "category": "yoga",
+        "images": "Warrior-1-Pose.gif",
+        "id": "Warrior-1-Pose",
+        "setsAndReps": "10 reps each side, hold the last one 5 sec"
+       },
+
+       {
+        "name":"Warrior 2 Pose",
+        "primaryMuscles":[
+          "yoga full body"
+        ],
+        "secondaryMuscles":[
+        ],
+        "benefits":" ",
+        "category": "yoga",
+        "images": "Warrior-2-Pose.gif",
+        "id": "Warrior-2-Pose",
+        "setsAndReps": "10 reps each side, hold the last one 5 sec"
+       },
+
+       {
+        "name":"Warrior 3 Pose",
+        "primaryMuscles":[
+          "yoga full body"
+        ],
+        "secondaryMuscles":[
+        ],
+        "benefits":" ",
+        "category": "yoga",
+        "images": "Warrior-3-Pose.gif",
+        "id": "Warrior-3-Pose",
+        "setsAndReps": "10 reps each side, hold the last one 5 sec"
+       },
+
+       {
+        "name":"Reverse Warrior Pose",
+        "primaryMuscles":[
+          "yoga full body"
+        ],
+        "secondaryMuscles":[
+        ],
+        "benefits":" ",
+        "category": "yoga",
+        "images": "Reverse-Warrior-Viparita-Virabhadrasana.gif",
+        "id": "Reverse-Warrior-Viparita-Virabhadrasana",
+        "setsAndReps": "10 reps each side, hold the last one 5 sec"
+       },
+
+       {
+        "name":"Ustrasana",
+        "primaryMuscles":[
+          "yoga full body"
+        ],
+        "secondaryMuscles":[
+        ],
+        "benefits":" ",
+        "category": "yoga",
+        "images": "Ustrasana.gif",
+        "id": "Ustrasana",
+        "setsAndReps": "10 reps hold the last one 5 sec"
+       },
+
+       {
+        "name":"Utthita Trikonasana",
+        "primaryMuscles":[
+          "yoga full body"
+        ],
+        "secondaryMuscles":[
+        ],
+        "benefits":" ",
+        "category": "yoga",
+        "images": "Utthita-Trikonasana-Extended-Triangle-Pose.gif",
+        "id": "Utthita-Trikonasana-Extended-Triangle-Pose",
+        "setsAndReps": "10 reps each side, hold the last one 5 sec"
+       },
+
+       {
+        "name":"Pada Hastasana | Hands to Feet Pose",
+        "primaryMuscles":[
+          "yoga full body"
+        ],
+        "secondaryMuscles":[
+        ],
+        "benefits":" ",
+        "category": "yoga",
+        "images": "Pada-Hastasana-Hands-to-Feet-Pose.gif",
+        "id": "Pada-Hastasana-Hands-to-Feet-Pose",
+        "setsAndReps": "15 - 20 sec"
+       },
+
+       {
+        "name":"Titli Asana | Butterfly Pose",
+        "primaryMuscles":[
+          "yoga full body"
+        ],
+        "secondaryMuscles":[
+        ],
+        "benefits":" ",
+        "category": "yoga",
+        "images": "Titli-Asana-Butterfly-Pose.gif",
+        "id": "Titli-Asana-Butterfly-Pose",
+        "setsAndReps": "10 reps hold the last one 5 sec"
+       },
+
+       {
+        "name":"Makarasana Crocodile Pose",
+        "primaryMuscles":[
+          "yoga full body"
+        ],
+        "secondaryMuscles":[
+        ],
+        "benefits":" ",
+        "category": "yoga",
+        "images": "Crocodile-Yoga-Pose.gif",
+        "id": "Crocodile-Yoga-Pose",
+        "setsAndReps": "10 reps hold the last one 5 sec"
+       },
+
+       {
+        "name":"Supta Matsyendrasana | Supine Spinal Twist",
+        "primaryMuscles":[
+          "yoga full body"
+        ],
+        "secondaryMuscles":[
+        ],
+        "benefits":" ",
+        "category": "yoga",
+        "images": "Supta-Matsyendrasana-Supine-Spinal-Twist.jpg",
+        "id": "Supta-Matsyendrasana-Supine-Spinal-Twist",
+        "setsAndReps": "20 sec each side"
+       },
+
+       {
+        "name":"Nauka Sanchalanasan | Rowing the Boat Pose",
+        "primaryMuscles":[
+          "yoga full body"
+        ],
+        "secondaryMuscles":[
+        ],
+        "benefits":" ",
+        "category": "yoga",
+        "images": "Rowing-Boat-Yoga-Pose.gif",
+        "id": "Rowing-Boat-Yoga-Pose",
+        "setsAndReps": "10 reps hold the last one 5 sec"
+       },
+
+       {
+        "name":"Childs Pose To Cobra Pose",
+        "primaryMuscles":[
+          "yoga full body"
+        ],
+        "secondaryMuscles":[
+        ],
+        "benefits":" ",
+        "category": "yoga",
+        "images": "Child-to-Cobra-Pose.gif",
+        "id": "Child-to-Cobra-Pose",
+        "setsAndReps": "10 reps hold the last one 5 sec"
+       },
+       {
+        "name":"Upavistha Konasana",
+        "primaryMuscles":[
+          "yoga full body"
+        ],
+        "secondaryMuscles":[
+        ],
+        "benefits":" ",
+        "category": "yoga",
+        "images": "Upavistha-Konasana.gif",
+        "id": "Upavistha-Konasana",
+        "setsAndReps": "10 reps hold the last one 5 sec"
+       },
+       {
+        "name":"Cat Cow Pose",
+        "primaryMuscles":[
+          "yoga full body"
+        ],
+        "secondaryMuscles":[
+        ],
+        "benefits":" ",
+        "category": "yoga",
+        "images": "cat-cow.gif",
+        "id": "cat-cow",
+        "setsAndReps": "10 reps hold the last one 5 sec"
+       },
+       {
+        "name":"Parsva Balasana | Thread the Needle Pose",
+        "primaryMuscles":[
+          "yoga full body"
+        ],
+        "secondaryMuscles":[
+        ],
+        "benefits":" ",
+        "category": "yoga",
+        "images": "Parsva-Balasana-Thread-the-Needle-Pose.gif",
+        "id": "Parsva-Balasana-Thread-the-Needle-Pose",
+        "setsAndReps": "10 reps each side, hold the last one 5 sec"
+       },
+       {
+        "name":"Half Frog Pose",
+        "primaryMuscles":[
+          "yoga full body"
+        ],
+        "secondaryMuscles":[
+        ],
+        "benefits":" ",
+        "category": "yoga",
+        "images": "Half-Frog-Pose-ardha-bhekasana.gif",
+        "id": "Half-Frog-Pose-ardha-bhekasana",
+        "setsAndReps": "10 reps each side, hold the last one 5 sec"
+       },
+
+       {
+        "name":"Dhanurasana | Rocking Bow Pose",
+        "primaryMuscles":[
+          "yoga full body"
+        ],
+        "secondaryMuscles":[
+        ],
+        "benefits":" ",
+        "category": "yoga",
+        "images": "Dhanurasana-Rocking-Bow-Pose.gif",
+        "id": "Dhanurasana-Rocking-Bow-Pose",
+        "setsAndReps": "10 reps each side, hold the last one 5 sec"
+       },
+      
+       {
+        "name":"Happy Baby Pose",
+        "primaryMuscles":[
+          "yoga full body"
+        ],
+        "secondaryMuscles":[
+        ],
+        "benefits":" ",
+        "category": "yoga",
+        "images": "Happy-Baby-Pose.gif",
+        "id": "Happy-Baby-Pose",
+        "setsAndReps": "10 reps each side, hold the last one 5 sec"
        }
+
 
 
 ]

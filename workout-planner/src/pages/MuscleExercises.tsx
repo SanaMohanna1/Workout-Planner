@@ -58,8 +58,10 @@ const MuscleExercises: React.FC = () => {
           {exercises.map((exercise) => (
             <IonCard
               key={exercise.id}
-              className="muscle-card"
-              onClick={() => history.push(`/library/${exercise.id}`)} // Navigate to Exercise Details Page
+              className={`muscle-card ${muscle === 'yoga full body' ? 'non-clickable' : ''}`}
+              onClick={() => 
+                muscle !== 'yoga full body' && history.push(`/library/${exercise.id}`)
+              } // Navigate to Exercise Details Page
             >
               <IonImg
                 src={`src/Data/exercises_gif/${exercise.images}`}
@@ -68,6 +70,10 @@ const MuscleExercises: React.FC = () => {
               <IonCardHeader>
                 <IonCardTitle>{exercise.name}</IonCardTitle>
                 <IonCardSubtitle>{exercise.category}</IonCardSubtitle>
+                <IonCardSubtitle>     
+                  <h4>Recommended:</h4>           
+                  <p>{exercise.setsAndReps}</p> 
+                </IonCardSubtitle>
               </IonCardHeader>
             </IonCard>
           ))}
