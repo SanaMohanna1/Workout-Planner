@@ -80,7 +80,7 @@ const Library: React.FC = () => {
                 onClick={() => history.push(`/library/muscle/${muscle}`)}
               >
                 <img
-                  src={`src/imgs/${muscle}.jpg`}
+                  src={`/imgs/${muscle}.jpg`}
                   alt={muscle}
                   className="muscle-img" /* Updated styles will apply here */
                 />

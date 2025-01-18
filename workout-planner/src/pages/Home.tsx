@@ -14,10 +14,10 @@ import {
 } from '@ionic/react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDumbbell } from '@fortawesome/free-solid-svg-icons';
-import exercise_img from '../imgs/workoutLibrary.jpg';
-import motivation_img from '../imgs/motivation_homeP.webp';
-import create_img from '../imgs/create Workout.jpg';
-import yoga_img from '../imgs/yoga home.jpg';
+import exercise_img from '/imgs/workoutLibrary.jpg';
+import motivation_img from '/imgs/motivation_homeP.webp';
+import create_img from '/imgs/create Workout.jpg';
+import yoga_img from '/imgs/yoga home.jpg';
 import './Home.css';
 
 const Home: React.FC = () => {
@@ -31,7 +31,7 @@ const Home: React.FC = () => {
       <IonContent className="ion-padding">
         {/* Welcome Section */}
         <div className="welcome-section">
-        <IonImg src="src/imgs/plan.png" alt="App Logo" className="welcome-logo" />
+        <IonImg src="/imgs/plan.png" alt="App Logo" className="welcome-logo" />
 
           <h1>Welcome to Your Workout Planner</h1>
           <p>Plan your workout, and achieve your fitness goals!</p>

@@ -63,7 +63,7 @@ const MuscleExercises: React.FC = () => {
               } // Navigate to Exercise Details Page
             >
               <IonImg
-                src={`src/Data/exercises_gif/${exercise.images}`}
+                src={`/exercises_gif/${exercise.images}`}
                 alt={exercise.name}
               />
               <IonCardHeader>

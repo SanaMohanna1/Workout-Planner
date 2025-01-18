@@ -191,7 +191,7 @@ const Create: React.FC = () => {
                         <IonItem key={exercise.id} lines="full">
                           <IonImg
                             slot="start"
-                            src={`src/Data/exercises_gif/${exercise.images}`}
+                            src={`/exercises_gif/${exercise.images}`}
                             className="exercise-img"
                             alt={exercise.name}
                           />
@@ -242,7 +242,7 @@ const Create: React.FC = () => {
                     <IonItem key={exercise.id} lines="full">
                       <IonImg
                         slot="start"
-                        src={`src/Data/exercises_gif/${exercise.images}`}
+                        src={`/exercises_gif/${exercise.images}`}
                         className="exercise-img"
                         alt={exercise.name}
                       />

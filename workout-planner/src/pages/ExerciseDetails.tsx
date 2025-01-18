@@ -52,7 +52,7 @@ const ExerciseDetails: React.FC = () => {
       <IonContent className="ion-padding">
         {/* Banner Section */}
         <div className="details-banner">
-          <img src={`src/Data/exercises_gif/${exercise.images}`} alt={exercise.name} />
+          <img src={`/exercises_gif/${exercise.images}`} alt={exercise.name} />
           <h1>{exercise.name}</h1>
         </div>
 
