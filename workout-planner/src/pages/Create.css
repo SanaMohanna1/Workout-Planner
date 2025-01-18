@@ -1,78 +1,133 @@
-.create-content {
-  position: relative;
-  background-image: url('src/imgs/plan.png'); /* Ensure the image is in the public folder */
-}
+
 ion-header ion-title {
   font-size: 1.4rem; /* Adjust size to fit smaller screens */
   text-overflow: ellipsis; /* Prevent text from overflowing */
   white-space: nowrap; /* Keep the title on one line */
   overflow: hidden; /* Hide overflowed text */
 }
-/* Cancel Button Styling */
-.cancel-button {
-  margin: 10px auto; /* Center horizontally with some spacing */
-  display: block;
-  width: 30%; /* Medium size, not too big */
-  background-color: var(--ion-color-danger); /* Red background */
-  color: white; /* White text for contrast */
-  font-size: 0.9rem; /* Slightly smaller font size */
-  border-radius: 8px; /* Rounded corners */
-  padding: 8px 16px; /* Adjust padding for a balanced look */
-  text-align: center; /* Center-align the text */
-  border: none; /* Remove border */
-  cursor: pointer; /* Show pointer on hover */
-  transition: background-color 0.3s ease; /* Smooth hover effect */
-}
-/* Hover Effect */
-.cancel-button:hover {
-  background-color: darkred; /* Darker red on hover */
-}
-.create-icon {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 70vh;
-  }
-  
-  .create-icon p {
-    font-size: 1.2rem;
-    color: var(--ion-color-medium);
-  }
-  
-  .library-view {
-    padding: 16px;
-  }
-  
-  .library-view h2 {
-    text-align: center;
-    color: var(--ion-color-primary);
-  }
-  
-  .muscle-group h3 {
-    margin-top: 16px;
-    margin-bottom: 8px;
-    color: var(--ion-color-dark);
-  }
-  
-  .selected-exercises {
-    padding: 16px;
-  }
-  
-  .selected-exercises h2 {
-    text-align: center;
-    color: var(--ion-color-primary);
-  }
 
-  .selected-exercises .muscle-group h3 {
-    margin-top: 16px;
-    margin-bottom: 8px;
-  }
-  
-  .exercise-img {
-    width: 80px; /* Set width for images */
-    height: 80px; /* Set height for images */
-    object-fit: cover; /* Maintain aspect ratio */
-    border-radius: 8px; /* Rounded corners */
-    margin-right: 8px;
-  }
+
+/* Container for Icons */
+.icon-buttons-container {
+  position: absolute;
+  top: 16px;
+  right: 16px; /* Position the icons to the right side of the page */
+  display: flex;
+  gap: 16px; /* Space between the icons */
+  z-index: 10; /* Ensure the icons stay above other content */
+}
+
+/* Cancel Icon Styling */
+.cancel-icon-button {
+  background: none; /* Remove background */
+  color: red; /* Make the icon itself red */
+  border: none; /* Remove border */
+  font-size: 1.8rem; /* Adjust icon size */
+  cursor: pointer; /* Pointer cursor */
+  transition: transform 0.2s ease; /* Add smooth hover effect */
+}
+
+/* Hover Effect for Cancel Icon */
+.cancel-icon-button:hover {
+  transform: scale(1.2); /* Slightly enlarge the icon on hover */
+}
+
+/* Check Icon Styling */
+.check-icon-button {
+  background: none; /* Remove background */
+  color: green; /* Make the icon itself green */
+  border: none; /* Remove border */
+  font-size: 1.8rem; /* Adjust icon size */
+  cursor: pointer; /* Pointer cursor */
+  transition: transform 0.2s ease; /* Add smooth hover effect */
+}
+
+/* Hover Effect for Check Icon */
+.check-icon-button:hover {
+  transform: scale(1.2); /* Slightly enlarge the icon on hover */
+}
+
+
+.create-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50vh; 
+  margin-bottom: 16px; /* Add a small gap below the create icon */
+}
+
+.create-icon p {
+  font-size: 1.2rem;
+  color: var(--ion-color-medium);
+}
+
+.library-view {
+  padding: 16px;
+}
+
+.library-view h2 {
+  text-align: center;
+  color: var(--ion-color-primary);
+}
+
+.muscle-group h3 {
+  margin-top: 16px;
+  margin-bottom: 8px;
+  color: var(--ion-color-dark);
+  cursor: pointer; /* Indicate clickable area */
+  display: flex;
+  align-items: center; /* Align text and icon */
+  justify-content: space-between; /* Space between text and icon */
+  padding: 8px 16px;
+  background-color: var(--ion-color-light); /* Light background for muscle titles */
+  border-radius: 8px; /* Rounded corners */
+}
+
+.muscle-group h3 ion-icon {
+  font-size: 1.2rem; /* Icon size */
+  color: var(--ion-color-medium); /* Icon color */
+  transition: transform 0.3s ease; /* Smooth toggle effect */
+}
+.muscle-group ion-item {
+  --detail-icon-display: none; /* Ensure detail icons are hidden */
+}
+.muscle-group h3.expanded ion-icon {
+  transform: rotate(180deg); /* Rotate icon when expanded */
+}
+
+.muscle-group .exercise-list {
+  padding-left: 16px; /* Indent exercises */
+  margin-top: 8px;
+  display: none; /* Hide exercises by default */
+}
+
+.muscle-group.expanded .exercise-list {
+  display: block; /* Show exercises when expanded */
+}
+
+.selected-exercises {
+  padding: 8px 16px; /* Adjust padding for less spacing */
+  margin-top: 0; /* Remove extra margin above the list */
+}
+
+.selected-exercises h2 {
+  text-align: center;
+  color: var(--ion-color-primary);
+  margin-bottom: 8px; /* Add a small gap below the title */
+}
+.selected-exercises .muscle-group {
+  margin-top: 8px; /* Adjust the gap between muscle groups */
+}
+.selected-exercises .muscle-group h3 {
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+
+.exercise-img {
+  width: 80px; /* Set width for images */
+  height: 80px; /* Set height for images */
+  object-fit: cover; /* Maintain aspect ratio */
+  border-radius: 8px; /* Rounded corners */
+  margin-right: 8px;
+}
