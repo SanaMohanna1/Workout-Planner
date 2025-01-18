@@ -1,3 +1,5 @@
+
+
 .muscle-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Responsive grid */
@@ -30,4 +32,43 @@
   font-size: 1rem;
   font-weight: bold;
   color: var(--ion-color-primary);
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Distribute space between icons and title */
+  width: 100%;
+  height: 100%; /* Make sure it occupies the toolbar height */
+}
+ion-title {
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-align: center;
+  flex: 1; /* Allow title to occupy remaining space */
+  color: var(--ion-color-light);
+  text-overflow: ellipsis; /* Prevent text from overflowing */
+  white-space: nowrap; /* Keep the title on one line */
+  overflow: hidden; /* Hide overflowed text */
+}
+
+/* Header Icons */
+.header-icons {
+  display: flex;
+  gap: 12px; /* Space between icons */
+  position: relative; /* Ensure proper layout without interfering */
+  align-items: center;
+}
+
+.header-icons ion-button {
+  --background: none; /* Remove background color */
+  --padding-start: 0;
+  --padding-end: 0;
+  --padding-top: 0;
+  --padding-bottom: 0;
+  z-index: 2; /* Ensure buttons are clickable */
+}
+
+.header-icons ion-icon {
+  font-size: 1.8rem; /* Adjust icon size */
+  color: var(--ion-color-light); /* Match toolbar text color */
 }

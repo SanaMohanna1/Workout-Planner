@@ -1,8 +1,13 @@
 /* General Content Padding */
-.ion-content {
+.ion-padding {
   padding: 0; /* Remove extra padding for better alignment */
 }
-
+ion-header ion-title {
+  font-size: 1.4rem; /* Adjust size to fit smaller screens */
+  text-overflow: ellipsis; /* Prevent text from overflowing */
+  white-space: nowrap; /* Keep the title on one line */
+  overflow: hidden; /* Hide overflowed text */
+}
 /* Welcome Section */
 .welcome-section {
   text-align: center;
@@ -54,10 +59,12 @@ ion-toolbar {
   justify-content: center; /* Center align title and icon */
 }
 
-.fa-dumbbell + ion-title {
-  flex: 1;
-  text-align: center;
+.welcome-logo {
+  width: 120px; /* Adjust width */
+  margin: 0 auto 16px; /* Center the logo with spacing */
+  display: block;
 }
+
 
 /* Card Grid Layout */
 .card-grid {
@@ -80,10 +87,16 @@ ion-card {
 }
 
 /* Card Hover Effects */
-ion-card:hover {
+.clickable-card:hover {
   transform: translateY(-6px); /* Slight lift on hover */
   box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
 }
+/* Adjust the size of header icons */
+ion-header ion-icon {
+  font-size: 1.6rem; /* Make icons slightly larger */
+  color: var(--ion-color-primary); /* Match the app's primary color */
+}
+
 
 /* Card Images */
 ion-card img {

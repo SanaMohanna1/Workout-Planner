@@ -22,6 +22,7 @@ const Tabs: React.FC = () => {
           <Redirect to="/home" />
         </Route>
       </IonRouterOutlet>
+     
 
       {/* Tab Bar */}
       <IonTabBar slot="bottom">

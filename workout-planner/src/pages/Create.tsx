@@ -15,7 +15,7 @@ import {
 import { addCircleOutline, trashOutline, checkmarkCircleOutline } from 'ionicons/icons';
 import './Create.css';
 import exercisesData from '../Data/Exercises.json';
-
+import backgroundImg from '../imgs/plan.png';
 const Create: React.FC = () => {
   const [showLibrary, setShowLibrary] = useState(false);
   const [selectedExercises, setSelectedExercises] = useState<{ [muscle: string]: any[] }>({});
@@ -113,13 +113,15 @@ const Create: React.FC = () => {
   };
 
   return (
+    
     <IonPage>
       <IonHeader>
         <IonToolbar>
           <IonTitle>Create Workout</IonTitle>
         </IonToolbar>
       </IonHeader>
-      <IonContent className="ion-padding">
+      <IonContent className="create-content" >
+          
         {/* Create Icon */}
         {!showLibrary && (
           <div className="create-icon">
@@ -133,6 +135,13 @@ const Create: React.FC = () => {
         {/* Library View */}
         {showLibrary && (
           <div className="library-view">
+            <IonButton
+              expand="block"
+              color="medium"
+              onClick={() => setShowLibrary(false)}
+              className="cancel-button">
+              Cancel
+            </IonButton>
             <h2>Select Exercises</h2>
             {Object.keys(muscleGroups).map((muscle) => (
               <div key={muscle} className="muscle-group">
@@ -233,8 +242,11 @@ const Create: React.FC = () => {
             </IonButton>
           </div>
         )}
+        
+
       </IonContent>
     </IonPage>
+    
   );
 };
 

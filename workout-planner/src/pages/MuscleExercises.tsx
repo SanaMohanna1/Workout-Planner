@@ -47,9 +47,8 @@ const MuscleExercises: React.FC = () => {
       <IonHeader>
         <IonToolbar>
         <IonButtons slot="start">
-          <IonBackButton defaultHref="/library"></IonBackButton>
+          <IonBackButton defaultHref="/library"  text="" mode="md"></IonBackButton>
         </IonButtons>
-        <IonTitle>Back Button</IonTitle>
           <IonTitle>{muscle} Exercises</IonTitle>
         </IonToolbar>
       </IonHeader>

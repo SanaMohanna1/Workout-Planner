@@ -1,3 +1,32 @@
+.create-content {
+  position: relative;
+  background-image: url('src/imgs/plan.png'); /* Ensure the image is in the public folder */
+}
+ion-header ion-title {
+  font-size: 1.4rem; /* Adjust size to fit smaller screens */
+  text-overflow: ellipsis; /* Prevent text from overflowing */
+  white-space: nowrap; /* Keep the title on one line */
+  overflow: hidden; /* Hide overflowed text */
+}
+/* Cancel Button Styling */
+.cancel-button {
+  margin: 10px auto; /* Center horizontally with some spacing */
+  display: block;
+  width: 30%; /* Medium size, not too big */
+  background-color: var(--ion-color-danger); /* Red background */
+  color: white; /* White text for contrast */
+  font-size: 0.9rem; /* Slightly smaller font size */
+  border-radius: 8px; /* Rounded corners */
+  padding: 8px 16px; /* Adjust padding for a balanced look */
+  text-align: center; /* Center-align the text */
+  border: none; /* Remove border */
+  cursor: pointer; /* Show pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+/* Hover Effect */
+.cancel-button:hover {
+  background-color: darkred; /* Darker red on hover */
+}
 .create-icon {
     display: flex;
     flex-direction: column;

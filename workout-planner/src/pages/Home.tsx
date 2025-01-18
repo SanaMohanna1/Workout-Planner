@@ -7,6 +7,7 @@ import {
   IonToolbar,
   IonCard,
   IonCardHeader,
+  IonImg,
   IonCardTitle,
   IonCardSubtitle,
   IonCardContent,
@@ -24,15 +25,16 @@ const Home: React.FC = () => {
     <IonPage>
       <IonHeader>
         <IonToolbar>
-          <FontAwesomeIcon icon={faDumbbell} className="fa-dumbbell" />
           <IonTitle>Workout Planner</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent className="ion-padding">
         {/* Welcome Section */}
         <div className="welcome-section">
+        <IonImg src="src/imgs/plan.png" alt="App Logo" className="welcome-logo" />
+
           <h1>Welcome to Your Workout Planner</h1>
-          <p>Track your workouts, plan your schedule, and achieve your fitness goals!</p>
+          <p>Plan your workout, and achieve your fitness goals!</p>
         </div>
         <div className="card-grid">
           {/* All Exercises Card */}
@@ -73,7 +75,7 @@ const Home: React.FC = () => {
           
           
           {/* Motivation Card */}
-          <IonCard className="clickable-card">
+          <IonCard className="card-motivation">
             <img alt="Motivation for Today" src={motivation_img} />
             <IonCardHeader>
               <IonCardTitle>Motivation for Today</IonCardTitle>

@@ -2,7 +2,12 @@
 .ion-padding {
   padding: 16px;
 }
-
+ion-header ion-title {
+  font-size: 1.4rem; /* Adjust size to fit smaller screens */
+  text-overflow: ellipsis; /* Prevent text from overflowing */
+  white-space: nowrap; /* Keep the title on one line */
+  overflow: hidden; /* Hide overflowed text */
+}
 /* Banner Styling */
 .details-banner {
   position: relative;

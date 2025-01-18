@@ -5,8 +5,15 @@ import {
   IonToolbar,
   IonTitle,
   IonContent,
+  IonButtons,
+  IonButton,
+  IonIcon,
+  IonList,
   IonSearchbar,
+  IonImg,
 } from '@ionic/react';
+import { home, create } from 'ionicons/icons';
+
 import { useHistory } from 'react-router-dom';
 
 import './Library.css';
@@ -40,8 +47,22 @@ const Library: React.FC = () => {
     <IonPage>
       <IonHeader>
         <IonToolbar>
-          <IonTitle>Workout Library</IonTitle>
+        <div className="header-container">
+      {/* Icons on the left */}
+      <div className="header-icons">
+        <IonButton fill="clear" routerLink="/home">
+          <IonIcon icon={home} slot="icon-only" />
+        </IonButton>
+        <IonButton fill="clear" routerLink="/create">
+          <IonIcon icon={create} slot="icon-only" />
+        </IonButton>
+      </div>
+
+      {/* Title in the center */}
+      <IonTitle>Workout Library</IonTitle>
+    </div>
         </IonToolbar>
+
       </IonHeader>
       <IonContent className="ion-padding">
         <IonSearchbar
