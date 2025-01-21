@@ -239,7 +239,12 @@ const Create: React.FC = () => {
                 <h3>{muscle}</h3>
                 <IonList>
                   {selectedExercises[muscle].map((exercise) => (
-                    <IonItem key={exercise.id} lines="full">
+                    <IonItem key={exercise.id} 
+                    lines="full"
+                    button
+                    detail
+                    routerLink={`/library/${exercise.id}`} // Navigate to the exercise details page
+                     >
                       <IonImg
                         slot="start"
                         src={`/exercises_gif/${exercise.images}`}
@@ -255,6 +260,9 @@ const Create: React.FC = () => {
                         >
                           {exercise.name}
                         </h2>
+                        <p>
+                         {exercise.setsAndReps}
+                        </p>
                       </IonLabel>
                       {/* Mark as Done Icon */}
                       <IonIcon
