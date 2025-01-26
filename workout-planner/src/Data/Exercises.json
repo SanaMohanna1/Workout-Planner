@@ -397,6 +397,23 @@
        },
 
        {
+        "name":"Dumbbell Pullover",
+        "primaryMuscles":[
+          "chest"
+        ],
+        "secondaryMuscles":[
+          "triceps (back arm)",
+          "upper back and wings"
+
+        ],
+        "benefits":"Dumbbell pullover is one of the rare exercises that trains both the front and back of the body at the same time. The main purpose of this exercise is to work the chest and back muscles, in order to strengthen them, and help you gain muscle mass. ",
+        "category": "strength",
+        "images": "Dumbbell-Pullover.gif",
+        "id": "Dumbbell-Pullover",
+        "setsAndReps": "15 reps * 3 sets"
+       },
+
+       {
         "name":"Smith Machine Squat",
         "primaryMuscles":[
           "leg",

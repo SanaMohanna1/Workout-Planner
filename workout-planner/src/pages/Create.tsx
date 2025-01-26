@@ -230,68 +230,75 @@ const Create: React.FC = () => {
               </IonButton>
             </div>
           )}
-        {/* Selected Exercises */}
-        {!showLibrary && Object.keys(selectedExercises).length > 0 && (
-          <div className="selected-exercises">
-            <h2>Selected Exercises</h2>
-            {Object.keys(selectedExercises).map((muscle) => (
-              <div key={muscle} className="muscle-group">
-                <h3>{muscle}</h3>
-                <IonList>
-                  {selectedExercises[muscle].map((exercise) => (
-                    <IonItem key={exercise.id} 
-                    lines="full"
-                    button
-                    detail
-                    routerLink={`/library/${exercise.id}`} // Navigate to the exercise details page
-                     >
-                      <IonImg
-                        slot="start"
-                        src={`/exercises_gif/${exercise.images}`}
-                        className="exercise-img"
-                        alt={exercise.name}
-                      />
-                      <IonLabel>
-                        <h2
-                          style={{
-                            textDecoration: exercise.done ? 'line-through' : 'none',
-                            color: exercise.done ? 'green' : 'inherit',
-                          }}
-                        >
-                          {exercise.name}
-                        </h2>
-                        <p>
-                         {exercise.setsAndReps}
-                        </p>
-                      </IonLabel>
-                      {/* Mark as Done Icon */}
-                      <IonIcon
-                        icon={checkmarkCircleOutline}
-                        slot="end"
-                        size="large"
-                        color={exercise.done ? 'success' : 'medium'}
-                        style={{ cursor: 'pointer' }}
-                        onClick={() => markAsDone(muscle, exercise.id)}
-                      />
-                      {/* Delete Icon */}
-                      <IonIcon
-                        icon={trashOutline}
-                        slot="end"
-                        size="large"
-                        color="danger"
-                        style={{ cursor: 'pointer' }}
-                        onClick={() => deleteExercise(muscle, exercise.id)}
-                      />
-                    </IonItem>
-                  ))}
-                </IonList>
-              </div>
-            ))}
-            <IonButton expand="block" color="danger" onClick={clearExercises}>
-              Clear All Exercises
-            </IonButton>
-          </div>
-        )}
+      {/* Selected Exercises */}
+{!showLibrary && Object.keys(selectedExercises).length > 0 && (
+  <div className="selected-exercises">
+    <h2>Selected Exercises</h2>
+    {Object.keys(selectedExercises).map((muscle) => (
+      <div key={muscle} className="muscle-group">
+        <h3>{muscle}</h3>
+        <IonList>
+          {selectedExercises[muscle].map((exercise) => (
+            <IonItem
+              key={exercise.id}
+              lines="full"
+              className="exercise-item"
+            >
+              <IonImg
+                slot="start"
+                src={`/exercises_gif/${exercise.images}`}
+                className="exercise-img"
+                alt={exercise.name}
+              />
+              <IonLabel>
+                <h2
+                  style={{
+                    textDecoration: exercise.done ? 'line-through' : 'none',
+                    color: exercise.done ? 'green' : 'inherit',
+                  }}
+                >
+                  {exercise.name}
+                </h2>
+                <p>{exercise.setsAndReps}</p>
+              </IonLabel>
+              {/* Mark as Done Icon */}
+              <IonIcon
+                icon={checkmarkCircleOutline}
+                slot="end"
+                size="large"
+                color={exercise.done ? 'success' : 'medium'}
+                style={{ cursor: 'pointer' }}
+                onClick={() => markAsDone(muscle, exercise.id)}
+              />
+              {/* Delete Icon */}
+              <IonIcon
+                icon={trashOutline}
+                slot="end"
+                size="large"
+                color="danger"
+                style={{ cursor: 'pointer' }}
+                onClick={() => deleteExercise(muscle, exercise.id)}
+              />
+              {/* Navigation Button */}
+              <IonButton
+                slot="end"
+                fill="clear"
+                color="primary"
+                routerLink={`/library/${exercise.id}`}
+              >
+                Details
+              </IonButton>
+            </IonItem>
+          ))}
+        </IonList>
+      </div>
+    ))}
+    <IonButton expand="block" color="danger" onClick={clearExercises}>
+      Clear All Exercises
+    </IonButton>
+  </div>
+)}
+
         
 
       </IonContent>
