@@ -1,104 +1,178 @@
 [
         {
-        "name": "Crunch With Leg Raise",
-        "primaryMuscles": [
-          "Abs"
-        ],
-        "secondaryMuscles": [
-          "lower back"
-        ],
-        "benefits":"The crunch with leg raise exercise targets the rectus abdominis and oblique muscles, so that the upper and lower abdominal muscles develop simultaneously.",
-        "category": "strength",
-        "images": "Crunch-With-Leg-Raise.gif",
-        "id": "Crunch-With-Leg-Raise",
-        "setsAndReps": "20 reps * 3 sets"
+          "name": "Crunch With Leg Raise",
+          "primaryMuscles": [
+            "Abs"
+          ],
+          "secondaryMuscles": [
+            "lower back"
+          ],
+          "benefits":"The crunch with leg raise exercise targets the rectus abdominis and oblique muscles, so that the upper and lower abdominal muscles develop simultaneously.",
+          "category": "strength",
+          "images": "Crunch-With-Leg-Raise.gif",
+          "id": "Crunch-With-Leg-Raise",
+          "setsAndReps": "20 reps * 3 sets"
         },
 
         {
-        "name": "Mountain Climber",
-        "primaryMuscles": [
-          "Abs",
-          "Cardio"
-        ],
-        "secondaryMuscles": [
-          "shoulders",
-          "chest"
-        ],
-        "benefits":"Mountain climber are an effective cardio strengthening workout. It can help you strengthen and develop both upper and lower body muscles.",
-        "category": "strength",
-        "images": "Mountain-climber.gif",
-        "id": "Mountain-climber",
-        "setsAndReps": "20 reps * 3 sets"
+          "name": "Mountain Climber",
+          "primaryMuscles": [
+            "Abs",
+            "Cardio"
+          ],
+          "secondaryMuscles": [
+            "shoulders",
+            "chest"
+          ],
+          "benefits":"Mountain climber are an effective cardio strengthening workout. It can help you strengthen and develop both upper and lower body muscles.",
+          "category": "strength",
+          "images": "Mountain-climber.gif",
+          "id": "Mountain-climber",
+          "setsAndReps": "20 reps * 3 sets"
         },
 
         {
-        "name": "Front to Side Plank",
-        "primaryMuscles": [
-          "Abs",
-          "hips",
-          "cardio",
-          "oblique "
-        ],
-        "secondaryMuscles": [
-          "shoulders",
-          "chest"
-        ],
-        "benefits":"Being a multi-functional movement, this exercise targets not only your abdominal muscles but also the spine and buttocks. Plank strengthens and tightens your entire body, improves your posture and balance, reduces body fat and can help speed up your metabolism.",
-        "category": "strength",
-        "images": "Front-to-Side-Plank.gif",
-        "id": "Front-to-Side-Plank",
-        "setsAndReps": "20 reps * 3 sets"
+          "name": "Front to Side Plank",
+          "primaryMuscles": [
+            "Abs",
+            "hips",
+            "cardio",
+            "oblique"
+          ],
+          "secondaryMuscles": [
+            "shoulders",
+            "chest"
+          ],
+          "benefits":"Being a multi-functional movement, this exercise targets not only your abdominal muscles but also the spine and buttocks. Plank strengthens and tightens your entire body, improves your posture and balance, reduces body fat and can help speed up your metabolism.",
+          "category": "strength",
+          "images": "Front-to-Side-Plank.gif",
+          "id": "Front-to-Side-Plank",
+          "setsAndReps": "20 reps * 3 sets"
         },
         
         {
-            "name": "Leg Raise",
-            "primaryMuscles": [
-              "Abs",
-              "oblique"
-            ],
-            "secondaryMuscles": [
-           
-            ],
-            "benefits":"this exercise targets the rectus abdominus and oblique muscles, it is particularly useful for burning and tightening the lower fat.",
-            "category": "strength",
-            "images": "Leg-Raise.gif",
-            "id": "Leg-Raise",
-            "setsAndReps": "20 reps * 3 sets"
-
+          "name": "Leg Raise",
+          "primaryMuscles": [
+            "Abs",
+            "oblique"
+          ],
+          "secondaryMuscles": [
+          
+          ],
+          "benefits":"this exercise targets the rectus abdominus and oblique muscles, it is particularly useful for burning and tightening the lower fat.",
+          "category": "strength",
+          "images": "Leg-Raise.gif",
+          "id": "Leg-Raise",
+          "setsAndReps": "20 reps * 3 sets"
         },
 
         {
-            "name":"Bicycle Crunch",
-            "primaryMuscles": [
-              "Abs",
-              "oblique",
-              "cardio"
-            ],
-            "secondaryMuscles": [
-              "Hip Flexors"
-            ],
-            "benefits":"a popular abdominal exercise that offers several benefits for those looking to strengthen their core and improve overall fitness.",
-            "category": "strength",
-            "images": "Bicycle-Crunch.gif",
-            "id": "Bicycle-Crunch",
-            "setsAndReps": "20 reps * 3 sets"
-
+          "name":"Bicycle Crunch",
+          "primaryMuscles": [
+            "Abs",
+            "oblique",
+            "cardio"
+          ],
+          "secondaryMuscles": [
+            "Hip Flexors"
+          ],
+          "benefits":"a popular abdominal exercise that offers several benefits for those looking to strengthen their core and improve overall fitness.",
+          "category": "strength",
+          "images": "Bicycle-Crunch.gif",
+          "id": "Bicycle-Crunch",
+          "setsAndReps": "20 reps * 3 sets"
         },
 
         {
-            "name":"Leg Scissors",
-            "primaryMuscles":[
-                "Abs"
-            ],
-            "secondaryMuscles":[
-                "Hip Flexors",
-                "hip"
-            ],
-            "benefits":"promotes greater flexibility and mobility. The wide range of motion required for each leg to move in an alternating scissor pattern helps in stretching the muscles, particularly the hip flexors and hamstrings",
-            "category": "strength",
-            "images": "Leg-Scissors.gif",
-            "id": "Leg-Scissors",
-            "setsAndReps": "20 reps * 3 sets"
+          "name":"Leg Scissors",
+          "primaryMuscles":[
+              "Abs"
+          ],
+          "secondaryMuscles":[
+              "Hip Flexors",
+              "hip"
+          ],
+          "benefits":"promotes greater flexibility and mobility. The wide range of motion required for each leg to move in an alternating scissor pattern helps in stretching the muscles, particularly the hip flexors and hamstrings",
+          "category": "strength",
+          "images": "Leg-Scissors.gif",
+          "id": "Leg-Scissors",
+          "setsAndReps": "20 reps * 3 sets"
+        },
+
+        {
+          "name": "Dragon Flag",
+          "primaryMuscles": [
+            "Abs"
+          ],
+          "secondaryMuscles": [
+            
+          ],
+          "benefits":"If you’re aiming for a well-defined six-pack, Dragon Flags can help you achieve that goal. The exercise specifically targets the abdominal muscles, contributing to a more chiseled appearance.",
+          "category": "strength",
+          "images": "Leg-Raise-Dragon-Flag.gif",
+          "id": "Leg-Raise-Dragon-Flag",
+          "setsAndReps": "10 reps * 4 sets"
+        },
+        {
+          "name": "Cross Crunch",
+          "primaryMuscles": [
+            "Abs",
+            "oblique"
+          ],
+          "secondaryMuscles": [
+          ],
+          "benefits":"Cross Crunches primarily target the obliques and the rectus abdominis (the “six-pack” muscles). By engaging these muscles, Cross Crunches help strengthen and tone your core, improving stability and overall strength.",
+          "category": "strength",
+          "images": "Cross-Crunch.gif",
+          "id": "Cross-Crunch",
+          "setsAndReps": "20 reps * 3 sets"
+        },
+
+        {
+          "name": "Seated Bench Leg Pull-in",
+          "primaryMuscles": [
+            "Abs"
+          ],
+          "secondaryMuscles": [
+            "hips"
+          ],
+          "benefits":"The Seated Bench Leg Pull-In primarily targets the lower abdominals, but it also engages the hip flexors and stabilizer muscles of the core. It can help strengthen the core muscles, improve stability, and enhance lower abdominal definition.",
+          "category": "strength",
+          "images": "Seated-Bench-Leg-Pull-in.gif",
+          "id": "Seated-Bench-Leg-Pull-in",
+          "setsAndReps": "15 reps * 3 sets"
+        },
+
+        {
+          "name":"Heel Touch",
+          "primaryMuscles": [
+            "Abs",
+            "oblique"
+          ],
+          "secondaryMuscles": [
+            
+          ],
+          "benefits":"The exercise works up the obliques, abs, and lower back muscles. Obliques are the muscles which connects your lats and abs these muscles help in twisting or turning our upper body. This exercise, which targets the oblique muscles, is very useful for tightening and developing the abdominals fat.",
+          "category": "strength",
+          "images": "Heel-Touch.gif",
+          "id": "Heel-Touch",
+          "setsAndReps": "15 reps * 3 sets"
+        },
+
+        {
+          "name": "Decline Sit-up",
+          "primaryMuscles": [
+            "Abs"
+            
+          ],
+          "secondaryMuscles": [
+            "oblique"
+          ],
+          "benefits":"Decline sit-ups target the rectus abdominus and oblique muscles to strengthen the core muscles. It is an exercise that you can apply to shape the upper abdominal muscles and six pack muscles.",
+          "category": "strength",
+          "images": "Decline-Sit-up.gif",
+          "id": "Decline-Sit-up",
+          "setsAndReps": "20 reps * 3 sets"
         },
 
         {
@@ -410,6 +484,57 @@
         "category": "strength",
         "images": "Dumbbell-Pullover.gif",
         "id": "Dumbbell-Pullover",
+        "setsAndReps": "15 reps * 3 sets"
+       },
+
+       {
+        "name":"High Cable Crossover",
+        "primaryMuscles":[
+          "chest"
+        ],
+        "secondaryMuscles":[
+          "triceps (back arm)",
+          "upper back and wings"
+
+        ],
+        "benefits":"The high cable crossover is an excellent exercise for chest development, as it stretches the chest muscles and increases range of motion. The exercise works the lower, inner, and outer areas of the pecs, which helps achieve a well-rounded chest workout and build overall chest strength.",
+        "category": "strength",
+        "images": "High-Cable-Crossover.gif",
+        "id": "High-Cable-Crossover",
+        "setsAndReps": "12 reps * 3 sets"
+       },
+
+       {
+        "name":"Decline Dumbbell Press",
+        "primaryMuscles":[
+          "chest"
+        ],
+        "secondaryMuscles":[
+          "triceps (back arm)",
+          "upper back and wings"
+
+        ],
+        "benefits":"Specifically targets the sternal head, creating a more balanced and sculpted chest, Dumbbells allow for a deeper stretch and greater contraction compared to barbell variations.",
+        "category": "strength",
+        "images": "Decline-Dumbbell-Press.gif",
+        "id": "Decline-Dumbbell-Press",
+        "setsAndReps": "15 reps * 3 sets"
+       },
+
+       {
+        "name":"Lever Incline Hammer Chest Press",
+        "primaryMuscles":[
+          "chest"
+        ],
+        "secondaryMuscles":[
+          "triceps (back arm)",
+          "shoulders"
+
+        ],
+        "benefits":"Targets the upper chest muscles for a more defined and sculpted look, Allows for a greater range of motion compared to traditional bench press.",
+        "category": "strength",
+        "images": "Lever-Incline-Hammer-Chest-Press.gif",
+        "id": "Lever-Incline-Hammer-Chest-Press",
         "setsAndReps": "15 reps * 3 sets"
        },
 
