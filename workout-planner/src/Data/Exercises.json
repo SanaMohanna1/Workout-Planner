@@ -411,6 +411,66 @@
           "id": "Lying-High-Bench-Barbell-Curl",
           "setsAndReps": "12 reps * 3 sets"
         },
+
+        {
+          "name":"EZ Bar Preacher Curl",
+          "primaryMuscles":[
+            "Biceps(forearm)"
+          ],
+          "secondaryMuscles":[
+
+          ],
+          "benefits":"The EZ-bar provides a mechanical advantage for the biceps by allowing for a comfortable grip and reducing the strain on the wrists and elbows. This enables you to lift heavier weights and perform more reps, which leads to greater muscle growth.",
+          "category": "strength",
+          "images": "Z-Bar-Preacher-Curl.gif",
+          "id": "Z-Bar-Preacher-Curl",
+          "setsAndReps": "15 reps * 3 sets"
+        },
+
+        {
+          "name":"High Cable Single Arm Bicep Curl",
+          "primaryMuscles":[
+            "Biceps(forearm)"
+          ],
+          "secondaryMuscles":[
+
+          ],
+          "benefits":"This position is designed to eliminate shoulder involvement and momentum, while targeting the biceps peak. It is a highly effective exercise for maximize the bicep peak. Additionally, you can use this movement to correct symmetry issues. (for example, if one bicep is bigger than another)",
+          "category": "strength",
+          "images": "High-Cable-Single-Arm-Bicep-Curl.gif",
+          "id": "High-Cable-Single-Arm-Bicep-Curl",
+          "setsAndReps": "12 reps * 3 sets each arm"
+        },
+
+        {
+          "name":"Cable Rope Hammer Curl",
+          "primaryMuscles":[
+            "Biceps(forearm)"
+          ],
+          "secondaryMuscles":[
+
+          ],
+          "benefits":"The first target of this exercise is brachialis and brachioradialis muscles. The cable rope aids in the upward movement, allowing you to squeeze up the biceps for a maximum contraction. The development of the brachioradialis muscle helps to strengthen your grip and can make your arm muscles appear stronger and more voluminous.",
+          "category": "strength",
+          "images": "rope-bicep-curls.gif",
+          "id": "rope-bicep-curls",
+          "setsAndReps": "15 reps * 3 sets"
+        },
+
+        {
+          "name":"Seated Bicep Curl With Resistance Band",
+          "primaryMuscles":[
+            "Biceps(forearm)"
+          ],
+          "secondaryMuscles":[
+
+          ],
+          "benefits":"",
+          "category": "strength",
+          "images": "Seated-Bicep-Curl-With-Resistance-Band.gif",
+          "id": "Seated-Bicep-Curl-With-Resistance-Band",
+          "setsAndReps": "15 reps * 3 sets"
+        },
         
         {
         "name":"Hammer Curl",
