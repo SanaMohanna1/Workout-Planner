@@ -261,6 +261,66 @@
         },
 
         {
+          "name":"Cable Rear Pulldown",
+          "primaryMuscles":[
+            "Back and Wing"
+        ],
+        "secondaryMuscles":[
+            "shoulders"
+        ],
+        "benefits":"The cable rear lat pulldown provides a variation to traditional lat pulldowns and other upper back exercises. Introducing different movements into your training routine can help prevent plateaus and keep your workouts engaging.",
+        "category": "strength",
+        "images": "Cable-Rear-Pulldown.gif",
+        "id": "Cable-Rear-Pulldown",
+        "setsAndReps": "15 reps * 3 sets"
+        },
+
+        {
+          "name":"Lat Pulldown",
+          "primaryMuscles":[
+            "Back and Wing"
+        ],
+        "secondaryMuscles":[
+            "Biceps(forearm)"
+        ],
+        "benefits":"The lat pulldown is a great exercise for building back strength, which can improve posture and reduce the risk of injury. Because the exercise requires a strong grip to hold onto the bar, lat pulldowns can help to improve overall grip strength.",
+        "category": "strength",
+        "images": "Lat-Pulldown.gif",
+        "id": "Lat-Pulldown",
+        "setsAndReps": "15 reps * 3 sets"
+        },
+
+        {
+          "name":"Bent Over Dumbbell Row",
+          "primaryMuscles":[
+            "Back and Wing"
+        ],
+        "secondaryMuscles":[
+            "hips"
+        ],
+        "benefits":"The bent-over dumbbell row is a compound exercise used to develop and strengthen the entire posterior chain, including both the hips and upper back. While most exercises target a specific muscle in the back of the body, the dumbbell row targets the entire back with each rep.",
+        "category": "strength",
+        "images": "Bent-Over-Dumbbell-Row.gif",
+        "id": "Bent-Over-Dumbbell-Row",
+        "setsAndReps": "15 reps * 3 sets"
+        },
+
+        {
+          "name":"Rope Straight Arm Pulldown",
+          "primaryMuscles":[
+            "Back and Wing"
+        ],
+        "secondaryMuscles":[
+            "triceps (back arm)"
+        ],
+        "benefits":"The rope straight-arm pulldown trains the lats through a long range of motion, and is helpful for people who have trouble feeling their backs work on conventional pulldown exercises.",
+        "category": "strength",
+        "images": "Rope-Straight-Arm-Pulldown.gif",
+        "id": "Rope-Straight-Arm-Pulldown",
+        "setsAndReps": "12 reps * 3 sets"
+        },
+
+        {
           "name":"Chin-Up",
           "primaryMuscles":[
             "Back and Wing",
