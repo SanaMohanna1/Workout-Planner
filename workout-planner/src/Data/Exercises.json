@@ -662,7 +662,8 @@
         "name":"Smith Machine Squat",
         "primaryMuscles":[
           "leg",
-          "hip"
+          "hip",
+          "Gluteus Maximus"
         ],
         "secondaryMuscles":[
           "calf",
@@ -748,7 +749,8 @@
         "name":"Jump Squats",
         "primaryMuscles":[
           "leg",
-          "hip"
+          "hip",
+          "Gluteus Maximus"
         ],
         "secondaryMuscles":[
          "calf"
@@ -794,6 +796,57 @@
         "images": "Leg-Press.gif",
         "id": "Leg-Press",
         "setsAndReps": "15 reps * 3 sets"
+       },
+
+       {
+        "name":"Dumbbell Romanian Deadlift",
+        "primaryMuscles":[
+          "leg",
+          "back",
+          "Gluteus Maximus"
+        ],
+        "secondaryMuscles":[
+        
+
+        ],
+        "benefits":"Dumbbell Romanian Deadlifts specifically target the posterior chain, which is crucial for lower body strength. The exercise effectively engages the hamstrings, glutes, and lower back muscles, promoting muscular development, strength, and endurance in these areas. By incorporating Dumbbell RDLs into your training routine, you can achieve a balanced and powerful lower body.",
+        "category": "strength",
+        "images": "Dumbbell-Romanian-Deadlift.gif",
+        "id": "Dumbbell-Romanian-Deadlift",
+        "setsAndReps": "15 reps * 3 sets"
+       },
+
+       {
+        "name":"Cable Hip Adduction",
+        "primaryMuscles":[
+          "leg",
+          "hip"
+        ],
+        "secondaryMuscles":[
+        
+
+        ],
+        "benefits":"The cable hip adduction is an effective isolation exercise for the inner hips which builds strength and muscle in the adductors responsible for rotation of the hip joint.",
+        "category": "strength",
+        "images": "Cable-Hips-Adduction.gif",
+        "id": "Cable-Hips-Adduction",
+        "setsAndReps": "15 reps * 3 sets"
+       },
+
+       {
+        "name":"Dumbbell Lateral Step Up",
+        "primaryMuscles":[
+          "leg"
+        ],
+        "secondaryMuscles":[
+        
+
+        ],
+        "benefits":"it Strengthens hamstrings, Improves knee stability, Targets glutes and lower back muscles, Can be done with minimal equipment, Allows for isolation of leg muscles.",
+        "category": "strength",
+        "images": "Dumbbell-Lateral-Step-Up.gif",
+        "id": "Dumbbell-Lateral-Step-Up",
+        "setsAndReps": "15 reps * 3 sets each leg each leg"
        },
 
        {
@@ -889,7 +942,7 @@
         "setsAndReps": "15 reps * 3 sets"
        },
 
-       {
+        {
         "name":"Scott Press",
         "primaryMuscles":[
           "shoulders"
@@ -901,6 +954,65 @@
         "category": "strength",
         "images": "scott-press.gif",
         "id": "scott-press",
+        "setsAndReps": "12 reps * 3 sets"
+       },
+
+        {
+        "name":"Cable Lateral Raise",
+        "primaryMuscles":[
+          "shoulders"
+        ],
+        "secondaryMuscles":[
+          "upper back"
+        ],
+        "benefits":"Lateral raise exercise with cable machines provides constant tension and continuous resistance while lifting and lowering the weight. Because muscle growth and strength gains are directly dependent on how much the muscle is stretched during exercise, cable machines tire the muscles faster and provide greater strength gain.",
+        "category": "strength",
+        "images": "one-arm-Cable-Lateral-Raise-shoulder.gif",
+        "id": "one-arm-Cable-Lateral-Raise-shoulder",
+        "setsAndReps": "12 reps * 3 sets each arm"
+       },
+
+        {
+        "name":"Lever Shoulder Press",
+        "primaryMuscles":[
+          "shoulders"
+        ],
+        "secondaryMuscles":[
+        ],
+        "benefits":"The lever machine provides a guided range of motion, allowing you to focus on proper form and reducing the risk of injury. Compared to free weight training, it can be a more ideal choice for beginners thanks to the range of motion provided by the machine. While the focus of this exercise is to build the shoulder muscles, you can also include it in your workouts to strengthen the upper body.",
+        "category": "strength",
+        "images": "Lever-Shoulder-Press.gif",
+        "id": "Lever-Shoulder-Press",
+        "setsAndReps": "12 reps * 3 sets"
+       },
+
+        {
+        "name":"Two Arm Cable Front Raise",
+        "primaryMuscles":[
+          "shoulders"
+        ],
+        "secondaryMuscles":[
+        ],
+        "benefits":"Front raise exercise with cable machines provides constant tension and continuous resistance while lifting and lowering the weight. Because muscle growth and strength gains are directly dependent on how much the muscle is stretched during exercise, cable machines tire the muscles faster and provide greater strength gain.",
+        "category": "strength",
+        "images": "Two-Arm-Cable-Front-Raise.gif",
+        "id": "Two-Arm-Cable-Front-Raise",
+        "setsAndReps": "15 reps * 3 sets"
+       },
+       
+
+       {
+        "name":"Rear Delt Fly Machine",
+        "primaryMuscles":[
+          "shoulders"
+        ],
+        "secondaryMuscles":[
+          "upper back"
+        ],
+        "benefits":"A rear delt fly machine is a great way to work the posterior deltoid, rhomboids, and middle trapezius. Working the posterior deltoid and scapular muscles can significantly increase shoulder stability, and working these muscles can have a positive effect on shoulder posture.",
+        "category": "strength",
+        "images": "Rear-Delt-Machine-Flys.gif",
+        "id": "Rear-Delt-Machine-Flys",
         "setsAndReps": "12 reps * 3 sets"
        },
 
@@ -1002,6 +1114,64 @@
         "images": "Triceps-dips-on-floors.gif",
         "id": "Triceps-dips-on-floors",
         "setsAndReps": "20 reps * 3 sets"
+       },
+
+       {
+        "name":"Dumbbell Kickback",
+        "primaryMuscles":[
+          "triceps (back arm)"
+        ],
+        "secondaryMuscles":[
+        ],
+        "benefits":"The dumbbell tricep kickback is an isolation exercise that builds strength and muscle in all three heads that make up the tricep muscle, meaning it mainly targets the triceps without involving other major muscle groups. This isolation allows you to concentrate on the triceps and develop them more effectively.",
+        "category": "strength",
+        "images": "Dumbbell-Kickback.gif",
+        "id": "Dumbbell-Kickback",
+        "setsAndReps": "12 reps * 3 sets"
+       },
+
+       {
+        "name":"Seated One-Arm Dumbbell Triceps Extension",
+        "primaryMuscles":[
+          "triceps (back arm)"
+        ],
+        "secondaryMuscles":[
+        ],
+        "benefits":"Seated One-Arm Dumbbell Triceps Extension is a single joint isolating exercise that provides strength and muscle development. It is a effective exercise to develop the tricep muscle. Additionally, you can use this movement to correct symmetry issues. (for example, if one arm is smaller and weaker than the other)",
+        "category": "strength",
+        "images": "Seated-One-Arm-Dumbbell-Triceps-Extension.gif",
+        "id": "Seated-One-Arm-Dumbbell-Triceps-Extension",
+        "setsAndReps": "12 reps * 3 sets each arm"
+       },
+
+       {
+        "name":"Kneeling Diamond Push-Up",
+        "primaryMuscles":[
+          "triceps (back arm)",
+          "chest"
+        ],
+        "secondaryMuscles":[
+          "shoulders"
+        ],
+        "benefits":"Kneeling diamond push-ups are an easier option for people who are just starting out or cannot do diamond push-ups. Although diamond push-ups are mainly aimed at the triceps, it is a bodyweight exercise that works your chest and front shoulder muscles.",
+        "category": "strength",
+        "images": "Knee-Push-Up.gif",
+        "id": "Knee-Push-Up",
+        "setsAndReps": "10 reps * 4 sets"
+       },
+
+       {
+        "name":"Decline Dumbbell Triceps Extension",
+        "primaryMuscles":[
+          "triceps (back arm)"
+        ],
+        "secondaryMuscles":[
+        ],
+        "benefits":"When you change the position of your shoulder during tricep exercises, you can slightly change the muscle work in the triceps. There will be a big difference in how your triceps feel when you do extensions on a decline compared with an incline.",
+        "category": "strength",
+        "images": "Decline-Dumbbell-Triceps-Extension.gif",
+        "id": "Decline-Dumbbell-Triceps-Extension",
+        "setsAndReps": "12 reps * 3 sets"
        },
 
        {
